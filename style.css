@@ -1,0 +1,1570 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  position: relative;
+  display: block;
+  font-size: 26px;
+  line-height: 28px;
+  color: #000;
+  left: 107px;
+  font-family: 'Pattaya', sans-serif;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+h3 {
+  position: relative;
+  display: block;
+  font-size: 18px;
+  line-height: 19px;
+  font-weight: 600;
+  color: #000;
+  left: 107px;
+  white-space: nowrap;
+  margin-bottom: 10px;
+}
+h4 {
+  position: relative;
+  display: block;
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 600;
+  color: #000;
+  white-space: nowrap;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+h5 {
+  position: relative;
+  display: block;
+  font-size: 14px;
+  line-height: 22px;
+  color: #000;
+  left: 107px;
+  white-space: nowrap;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: 300px;
+}
+.none {
+  display: none !important;
+}
+.flex {
+  display: flex;
+}
+.opacity {
+  transition-duration: 1s !important;
+  opacity: 1 !important;
+}
+.time_plus {
+  transition-duration: 1s !important;
+  transform: translateY(-50px) !important;
+}
+.help_video {
+  clip-path: polygon(0% 100%, 100% 400%, 100% 375px, calc(100% - 375px) 0%, 0% 0%);
+}
+.answer_number_active {
+  position: absolute;
+  display: block;
+  width: 26px;
+  height: 25px;
+  left: -13px;
+  top: 11px;
+  background: url(images/deck/screen_5/answer_number_active.png) no-repeat !important;
+}
+.wrapp {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  min-height: 850px;
+  background: url(images/deck/frame-1440.png) no-repeat 50% 50%;
+}
+.wrapp .main {
+  position: relative;
+  display: block;
+  width: 1200px;
+  height: 750px;
+  margin: 0 auto;
+  top: 50px;
+}
+.wrapp .main .tabele_open {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.wrapp .main .tabele_open .book_open {
+  position: relative;
+  left: 45%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 830px;
+  height: 565px;
+  z-index: 1;
+  background: url(images/deck/screen_5/spreads-2-x@2x.png) no-repeat center center;
+}
+.wrapp .main .tabele_open .book_open .start,
+.wrapp .main .tabele_open .book_open .question_1,
+.wrapp .main .tabele_open .book_open .question_2,
+.wrapp .main .tabele_open .book_open .question_3,
+.wrapp .main .tabele_open .book_open .question_4,
+.wrapp .main .tabele_open .book_open .question_5,
+.wrapp .main .tabele_open .book_open .question_6,
+.wrapp .main .tabele_open .book_open .question_7,
+.wrapp .main .tabele_open .book_open .question_8,
+.wrapp .main .tabele_open .book_open .question_9,
+.wrapp .main .tabele_open .book_open .question_10,
+.wrapp .main .tabele_open .book_open .question_11,
+.wrapp .main .tabele_open .book_open .question_12 {
+  transition-duration: 0;
+  display: flex;
+}
+.wrapp .main .tabele_open .book_open .start .part-left,
+.wrapp .main .tabele_open .book_open .question_1 .part-left,
+.wrapp .main .tabele_open .book_open .question_2 .part-left,
+.wrapp .main .tabele_open .book_open .question_3 .part-left,
+.wrapp .main .tabele_open .book_open .question_4 .part-left,
+.wrapp .main .tabele_open .book_open .question_5 .part-left,
+.wrapp .main .tabele_open .book_open .question_6 .part-left,
+.wrapp .main .tabele_open .book_open .question_7 .part-left,
+.wrapp .main .tabele_open .book_open .question_8 .part-left,
+.wrapp .main .tabele_open .book_open .question_9 .part-left,
+.wrapp .main .tabele_open .book_open .question_10 .part-left,
+.wrapp .main .tabele_open .book_open .question_11 .part-left,
+.wrapp .main .tabele_open .book_open .question_12 .part-left {
+  width: 50%;
+  position: relative;
+}
+.wrapp .main .tabele_open .book_open .start .part-left .chapter,
+.wrapp .main .tabele_open .book_open .question_1 .part-left .chapter,
+.wrapp .main .tabele_open .book_open .question_2 .part-left .chapter,
+.wrapp .main .tabele_open .book_open .question_3 .part-left .chapter,
+.wrapp .main .tabele_open .book_open .question_4 .part-left .chapter,
+.wrapp .main .tabele_open .book_open .question_5 .part-left .chapter,
+.wrapp .main .tabele_open .book_open .question_6 .part-left .chapter,
+.wrapp .main .tabele_open .book_open .question_7 .part-left .chapter,
+.wrapp .main .tabele_open .book_open .question_8 .part-left .chapter,
+.wrapp .main .tabele_open .book_open .question_9 .part-left .chapter,
+.wrapp .main .tabele_open .book_open .question_10 .part-left .chapter,
+.wrapp .main .tabele_open .book_open .question_11 .part-left .chapter,
+.wrapp .main .tabele_open .book_open .question_12 .part-left .chapter {
+  position: absolute;
+  display: block;
+  left: 30px;
+  top: 28px;
+  width: 61px;
+  height: 219px;
+  background: url(images/deck/screen_5/chapter.png) no-repeat 50% 50%;
+  background-size: 100% 100%;
+}
+.wrapp .main .tabele_open .book_open .start .part-left .line-question,
+.wrapp .main .tabele_open .book_open .question_1 .part-left .line-question,
+.wrapp .main .tabele_open .book_open .question_2 .part-left .line-question,
+.wrapp .main .tabele_open .book_open .question_3 .part-left .line-question,
+.wrapp .main .tabele_open .book_open .question_4 .part-left .line-question,
+.wrapp .main .tabele_open .book_open .question_5 .part-left .line-question,
+.wrapp .main .tabele_open .book_open .question_6 .part-left .line-question,
+.wrapp .main .tabele_open .book_open .question_7 .part-left .line-question,
+.wrapp .main .tabele_open .book_open .question_8 .part-left .line-question,
+.wrapp .main .tabele_open .book_open .question_9 .part-left .line-question,
+.wrapp .main .tabele_open .book_open .question_10 .part-left .line-question,
+.wrapp .main .tabele_open .book_open .question_11 .part-left .line-question,
+.wrapp .main .tabele_open .book_open .question_12 .part-left .line-question {
+  position: relative;
+  display: block;
+  left: 107px;
+}
+.wrapp .main .tabele_open .book_open .start .part-left .arrow,
+.wrapp .main .tabele_open .book_open .question_1 .part-left .arrow,
+.wrapp .main .tabele_open .book_open .question_2 .part-left .arrow,
+.wrapp .main .tabele_open .book_open .question_3 .part-left .arrow,
+.wrapp .main .tabele_open .book_open .question_4 .part-left .arrow,
+.wrapp .main .tabele_open .book_open .question_5 .part-left .arrow,
+.wrapp .main .tabele_open .book_open .question_6 .part-left .arrow,
+.wrapp .main .tabele_open .book_open .question_7 .part-left .arrow,
+.wrapp .main .tabele_open .book_open .question_8 .part-left .arrow,
+.wrapp .main .tabele_open .book_open .question_9 .part-left .arrow,
+.wrapp .main .tabele_open .book_open .question_10 .part-left .arrow,
+.wrapp .main .tabele_open .book_open .question_11 .part-left .arrow,
+.wrapp .main .tabele_open .book_open .question_12 .part-left .arrow {
+  position: relative;
+  display: block;
+  left: 245px;
+}
+.wrapp .main .tabele_open .book_open .start .part-left .step,
+.wrapp .main .tabele_open .book_open .question_1 .part-left .step,
+.wrapp .main .tabele_open .book_open .question_2 .part-left .step,
+.wrapp .main .tabele_open .book_open .question_3 .part-left .step,
+.wrapp .main .tabele_open .book_open .question_4 .part-left .step,
+.wrapp .main .tabele_open .book_open .question_5 .part-left .step,
+.wrapp .main .tabele_open .book_open .question_6 .part-left .step,
+.wrapp .main .tabele_open .book_open .question_7 .part-left .step,
+.wrapp .main .tabele_open .book_open .question_8 .part-left .step,
+.wrapp .main .tabele_open .book_open .question_9 .part-left .step,
+.wrapp .main .tabele_open .book_open .question_10 .part-left .step,
+.wrapp .main .tabele_open .book_open .question_11 .part-left .step,
+.wrapp .main .tabele_open .book_open .question_12 .part-left .step {
+  position: absolute;
+  display: block;
+  left: 29px;
+  top: 235px;
+  width: 70px;
+  height: 286px;
+  background-size: 100% 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.wrapp .main .tabele_open .book_open .start .part-left .photo-question,
+.wrapp .main .tabele_open .book_open .question_1 .part-left .photo-question,
+.wrapp .main .tabele_open .book_open .question_2 .part-left .photo-question,
+.wrapp .main .tabele_open .book_open .question_3 .part-left .photo-question,
+.wrapp .main .tabele_open .book_open .question_4 .part-left .photo-question,
+.wrapp .main .tabele_open .book_open .question_5 .part-left .photo-question,
+.wrapp .main .tabele_open .book_open .question_6 .part-left .photo-question,
+.wrapp .main .tabele_open .book_open .question_7 .part-left .photo-question,
+.wrapp .main .tabele_open .book_open .question_8 .part-left .photo-question,
+.wrapp .main .tabele_open .book_open .question_9 .part-left .photo-question,
+.wrapp .main .tabele_open .book_open .question_10 .part-left .photo-question,
+.wrapp .main .tabele_open .book_open .question_11 .part-left .photo-question,
+.wrapp .main .tabele_open .book_open .question_12 .part-left .photo-question {
+  position: relative;
+  background-image: url(images/deck/makak-screen-3-x@3x.png);
+  display: block;
+  left: 120px;
+  top: 15px;
+  width: 250px;
+  height: 278px;
+  background-size: 100% 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.wrapp .main .tabele_open .book_open .start .part-right,
+.wrapp .main .tabele_open .book_open .question_1 .part-right,
+.wrapp .main .tabele_open .book_open .question_2 .part-right,
+.wrapp .main .tabele_open .book_open .question_3 .part-right,
+.wrapp .main .tabele_open .book_open .question_4 .part-right,
+.wrapp .main .tabele_open .book_open .question_5 .part-right,
+.wrapp .main .tabele_open .book_open .question_6 .part-right,
+.wrapp .main .tabele_open .book_open .question_7 .part-right,
+.wrapp .main .tabele_open .book_open .question_8 .part-right,
+.wrapp .main .tabele_open .book_open .question_9 .part-right,
+.wrapp .main .tabele_open .book_open .question_10 .part-right,
+.wrapp .main .tabele_open .book_open .question_11 .part-right,
+.wrapp .main .tabele_open .book_open .question_12 .part-right {
+  position: relative;
+  width: 50%;
+  z-index: 5;
+}
+.wrapp .main .tabele_open .book_open .start .part-right .line-answer,
+.wrapp .main .tabele_open .book_open .question_1 .part-right .line-answer,
+.wrapp .main .tabele_open .book_open .question_2 .part-right .line-answer,
+.wrapp .main .tabele_open .book_open .question_3 .part-right .line-answer,
+.wrapp .main .tabele_open .book_open .question_4 .part-right .line-answer,
+.wrapp .main .tabele_open .book_open .question_5 .part-right .line-answer,
+.wrapp .main .tabele_open .book_open .question_6 .part-right .line-answer,
+.wrapp .main .tabele_open .book_open .question_7 .part-right .line-answer,
+.wrapp .main .tabele_open .book_open .question_8 .part-right .line-answer,
+.wrapp .main .tabele_open .book_open .question_9 .part-right .line-answer,
+.wrapp .main .tabele_open .book_open .question_10 .part-right .line-answer,
+.wrapp .main .tabele_open .book_open .question_11 .part-right .line-answer,
+.wrapp .main .tabele_open .book_open .question_12 .part-right .line-answer {
+  position: relative;
+  top: 115px;
+  left: 40px;
+}
+.wrapp .main .tabele_open .book_open .start .part-right h4,
+.wrapp .main .tabele_open .book_open .question_1 .part-right h4,
+.wrapp .main .tabele_open .book_open .question_2 .part-right h4,
+.wrapp .main .tabele_open .book_open .question_3 .part-right h4,
+.wrapp .main .tabele_open .book_open .question_4 .part-right h4,
+.wrapp .main .tabele_open .book_open .question_5 .part-right h4,
+.wrapp .main .tabele_open .book_open .question_6 .part-right h4,
+.wrapp .main .tabele_open .book_open .question_7 .part-right h4,
+.wrapp .main .tabele_open .book_open .question_8 .part-right h4,
+.wrapp .main .tabele_open .book_open .question_9 .part-right h4,
+.wrapp .main .tabele_open .book_open .question_10 .part-right h4,
+.wrapp .main .tabele_open .book_open .question_11 .part-right h4,
+.wrapp .main .tabele_open .book_open .question_12 .part-right h4 {
+  top: 120px;
+  left: 40px;
+}
+.wrapp .main .tabele_open .book_open .start .part-right .answer,
+.wrapp .main .tabele_open .book_open .question_1 .part-right .answer,
+.wrapp .main .tabele_open .book_open .question_2 .part-right .answer,
+.wrapp .main .tabele_open .book_open .question_3 .part-right .answer,
+.wrapp .main .tabele_open .book_open .question_4 .part-right .answer,
+.wrapp .main .tabele_open .book_open .question_5 .part-right .answer,
+.wrapp .main .tabele_open .book_open .question_6 .part-right .answer,
+.wrapp .main .tabele_open .book_open .question_7 .part-right .answer,
+.wrapp .main .tabele_open .book_open .question_8 .part-right .answer,
+.wrapp .main .tabele_open .book_open .question_9 .part-right .answer,
+.wrapp .main .tabele_open .book_open .question_10 .part-right .answer,
+.wrapp .main .tabele_open .book_open .question_11 .part-right .answer,
+.wrapp .main .tabele_open .book_open .question_12 .part-right .answer {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  top: 130px;
+  left: 40px;
+}
+.wrapp .main .tabele_open .book_open .start .part-right .answer-items,
+.wrapp .main .tabele_open .book_open .question_1 .part-right .answer-items,
+.wrapp .main .tabele_open .book_open .question_2 .part-right .answer-items,
+.wrapp .main .tabele_open .book_open .question_3 .part-right .answer-items,
+.wrapp .main .tabele_open .book_open .question_4 .part-right .answer-items,
+.wrapp .main .tabele_open .book_open .question_5 .part-right .answer-items,
+.wrapp .main .tabele_open .book_open .question_6 .part-right .answer-items,
+.wrapp .main .tabele_open .book_open .question_7 .part-right .answer-items,
+.wrapp .main .tabele_open .book_open .question_8 .part-right .answer-items,
+.wrapp .main .tabele_open .book_open .question_9 .part-right .answer-items,
+.wrapp .main .tabele_open .book_open .question_10 .part-right .answer-items,
+.wrapp .main .tabele_open .book_open .question_11 .part-right .answer-items,
+.wrapp .main .tabele_open .book_open .question_12 .part-right .answer-items {
+  position: relative;
+}
+.wrapp .main .tabele_open .book_open .start .part-right .answer-items .answer-item,
+.wrapp .main .tabele_open .book_open .question_1 .part-right .answer-items .answer-item,
+.wrapp .main .tabele_open .book_open .question_2 .part-right .answer-items .answer-item,
+.wrapp .main .tabele_open .book_open .question_3 .part-right .answer-items .answer-item,
+.wrapp .main .tabele_open .book_open .question_4 .part-right .answer-items .answer-item,
+.wrapp .main .tabele_open .book_open .question_5 .part-right .answer-items .answer-item,
+.wrapp .main .tabele_open .book_open .question_6 .part-right .answer-items .answer-item,
+.wrapp .main .tabele_open .book_open .question_7 .part-right .answer-items .answer-item,
+.wrapp .main .tabele_open .book_open .question_8 .part-right .answer-items .answer-item,
+.wrapp .main .tabele_open .book_open .question_9 .part-right .answer-items .answer-item,
+.wrapp .main .tabele_open .book_open .question_10 .part-right .answer-items .answer-item,
+.wrapp .main .tabele_open .book_open .question_11 .part-right .answer-items .answer-item,
+.wrapp .main .tabele_open .book_open .question_12 .part-right .answer-items .answer-item {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+.wrapp .main .tabele_open .book_open .start .part-right .answer-items .answer-item .answer-number,
+.wrapp .main .tabele_open .book_open .question_1 .part-right .answer-items .answer-item .answer-number,
+.wrapp .main .tabele_open .book_open .question_2 .part-right .answer-items .answer-item .answer-number,
+.wrapp .main .tabele_open .book_open .question_3 .part-right .answer-items .answer-item .answer-number,
+.wrapp .main .tabele_open .book_open .question_4 .part-right .answer-items .answer-item .answer-number,
+.wrapp .main .tabele_open .book_open .question_5 .part-right .answer-items .answer-item .answer-number,
+.wrapp .main .tabele_open .book_open .question_6 .part-right .answer-items .answer-item .answer-number,
+.wrapp .main .tabele_open .book_open .question_7 .part-right .answer-items .answer-item .answer-number,
+.wrapp .main .tabele_open .book_open .question_8 .part-right .answer-items .answer-item .answer-number,
+.wrapp .main .tabele_open .book_open .question_9 .part-right .answer-items .answer-item .answer-number,
+.wrapp .main .tabele_open .book_open .question_10 .part-right .answer-items .answer-item .answer-number,
+.wrapp .main .tabele_open .book_open .question_11 .part-right .answer-items .answer-item .answer-number,
+.wrapp .main .tabele_open .book_open .question_12 .part-right .answer-items .answer-item .answer-number {
+  position: absolute;
+  display: block;
+  width: 26px;
+  height: 25px;
+  left: -13px;
+  top: 11px;
+  background: url(images/deck/screen_5/answer_number.png) no-repeat;
+  background-size: 100% 100%;
+  font-size: 14px;
+  line-height: 25px;
+  text-align: center;
+  font-weight: 500;
+  z-index: 5;
+}
+.wrapp .main .tabele_open .book_open .start .part-right .answer-items .answer-item .answer-text,
+.wrapp .main .tabele_open .book_open .question_1 .part-right .answer-items .answer-item .answer-text,
+.wrapp .main .tabele_open .book_open .question_2 .part-right .answer-items .answer-item .answer-text,
+.wrapp .main .tabele_open .book_open .question_3 .part-right .answer-items .answer-item .answer-text,
+.wrapp .main .tabele_open .book_open .question_4 .part-right .answer-items .answer-item .answer-text,
+.wrapp .main .tabele_open .book_open .question_5 .part-right .answer-items .answer-item .answer-text,
+.wrapp .main .tabele_open .book_open .question_6 .part-right .answer-items .answer-item .answer-text,
+.wrapp .main .tabele_open .book_open .question_7 .part-right .answer-items .answer-item .answer-text,
+.wrapp .main .tabele_open .book_open .question_8 .part-right .answer-items .answer-item .answer-text,
+.wrapp .main .tabele_open .book_open .question_9 .part-right .answer-items .answer-item .answer-text,
+.wrapp .main .tabele_open .book_open .question_10 .part-right .answer-items .answer-item .answer-text,
+.wrapp .main .tabele_open .book_open .question_11 .part-right .answer-items .answer-item .answer-text,
+.wrapp .main .tabele_open .book_open .question_12 .part-right .answer-items .answer-item .answer-text {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+.wrapp .main .tabele_open .book_open .start .part-right .answer-items .answer-item .answer-img,
+.wrapp .main .tabele_open .book_open .question_1 .part-right .answer-items .answer-item .answer-img,
+.wrapp .main .tabele_open .book_open .question_2 .part-right .answer-items .answer-item .answer-img,
+.wrapp .main .tabele_open .book_open .question_3 .part-right .answer-items .answer-item .answer-img,
+.wrapp .main .tabele_open .book_open .question_4 .part-right .answer-items .answer-item .answer-img,
+.wrapp .main .tabele_open .book_open .question_5 .part-right .answer-items .answer-item .answer-img,
+.wrapp .main .tabele_open .book_open .question_6 .part-right .answer-items .answer-item .answer-img,
+.wrapp .main .tabele_open .book_open .question_7 .part-right .answer-items .answer-item .answer-img,
+.wrapp .main .tabele_open .book_open .question_8 .part-right .answer-items .answer-item .answer-img,
+.wrapp .main .tabele_open .book_open .question_9 .part-right .answer-items .answer-item .answer-img,
+.wrapp .main .tabele_open .book_open .question_10 .part-right .answer-items .answer-item .answer-img,
+.wrapp .main .tabele_open .book_open .question_11 .part-right .answer-items .answer-item .answer-img,
+.wrapp .main .tabele_open .book_open .question_12 .part-right .answer-items .answer-item .answer-img {
+  position: absolute;
+  top: 3px;
+  left: 5px;
+  width: 100px;
+  height: 80px;
+  background-color: #fff;
+  border-radius: 2px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+.wrapp .main .tabele_open .book_open .start .part-right .answer-items .answer-item .answer-rama,
+.wrapp .main .tabele_open .book_open .question_1 .part-right .answer-items .answer-item .answer-rama,
+.wrapp .main .tabele_open .book_open .question_2 .part-right .answer-items .answer-item .answer-rama,
+.wrapp .main .tabele_open .book_open .question_3 .part-right .answer-items .answer-item .answer-rama,
+.wrapp .main .tabele_open .book_open .question_4 .part-right .answer-items .answer-item .answer-rama,
+.wrapp .main .tabele_open .book_open .question_5 .part-right .answer-items .answer-item .answer-rama,
+.wrapp .main .tabele_open .book_open .question_6 .part-right .answer-items .answer-item .answer-rama,
+.wrapp .main .tabele_open .book_open .question_7 .part-right .answer-items .answer-item .answer-rama,
+.wrapp .main .tabele_open .book_open .question_8 .part-right .answer-items .answer-item .answer-rama,
+.wrapp .main .tabele_open .book_open .question_9 .part-right .answer-items .answer-item .answer-rama,
+.wrapp .main .tabele_open .book_open .question_10 .part-right .answer-items .answer-item .answer-rama,
+.wrapp .main .tabele_open .book_open .question_11 .part-right .answer-items .answer-item .answer-rama,
+.wrapp .main .tabele_open .book_open .question_12 .part-right .answer-items .answer-item .answer-rama {
+  position: absolute;
+  display: block;
+  width: 162px;
+  height: 96px;
+  top: -12px;
+  left: -11px;
+  background: url(images/deck/screen_5/rama1.png) no-repeat;
+  background-size: 100% 100%;
+  pointer-events: none;
+  opacity: 0;
+}
+.wrapp .main .tabele_open .book_open .start .part-right .answer .btn-answer,
+.wrapp .main .tabele_open .book_open .question_1 .part-right .answer .btn-answer,
+.wrapp .main .tabele_open .book_open .question_2 .part-right .answer .btn-answer,
+.wrapp .main .tabele_open .book_open .question_3 .part-right .answer .btn-answer,
+.wrapp .main .tabele_open .book_open .question_4 .part-right .answer .btn-answer,
+.wrapp .main .tabele_open .book_open .question_5 .part-right .answer .btn-answer,
+.wrapp .main .tabele_open .book_open .question_6 .part-right .answer .btn-answer,
+.wrapp .main .tabele_open .book_open .question_7 .part-right .answer .btn-answer,
+.wrapp .main .tabele_open .book_open .question_8 .part-right .answer .btn-answer,
+.wrapp .main .tabele_open .book_open .question_9 .part-right .answer .btn-answer,
+.wrapp .main .tabele_open .book_open .question_10 .part-right .answer .btn-answer,
+.wrapp .main .tabele_open .book_open .question_11 .part-right .answer .btn-answer,
+.wrapp .main .tabele_open .book_open .question_12 .part-right .answer .btn-answer {
+  position: relative;
+  display: block;
+  margin-top: 15px;
+  width: 201px;
+  height: 37px;
+  cursor: pointer;
+  left: 140px;
+  bottom: -140px;
+}
+.wrapp .main .tabele_open .book_open .start .part-right .answer .btn-answer .answer-btn-img,
+.wrapp .main .tabele_open .book_open .question_1 .part-right .answer .btn-answer .answer-btn-img,
+.wrapp .main .tabele_open .book_open .question_2 .part-right .answer .btn-answer .answer-btn-img,
+.wrapp .main .tabele_open .book_open .question_3 .part-right .answer .btn-answer .answer-btn-img,
+.wrapp .main .tabele_open .book_open .question_4 .part-right .answer .btn-answer .answer-btn-img,
+.wrapp .main .tabele_open .book_open .question_5 .part-right .answer .btn-answer .answer-btn-img,
+.wrapp .main .tabele_open .book_open .question_6 .part-right .answer .btn-answer .answer-btn-img,
+.wrapp .main .tabele_open .book_open .question_7 .part-right .answer .btn-answer .answer-btn-img,
+.wrapp .main .tabele_open .book_open .question_8 .part-right .answer .btn-answer .answer-btn-img,
+.wrapp .main .tabele_open .book_open .question_9 .part-right .answer .btn-answer .answer-btn-img,
+.wrapp .main .tabele_open .book_open .question_10 .part-right .answer .btn-answer .answer-btn-img,
+.wrapp .main .tabele_open .book_open .question_11 .part-right .answer .btn-answer .answer-btn-img,
+.wrapp .main .tabele_open .book_open .question_12 .part-right .answer .btn-answer .answer-btn-img {
+  position: absolute;
+  display: block;
+  left: 0px;
+  top: 0;
+  width: 201px;
+  height: 37px;
+  background: url(images/deck/screen_5/next_h.png) no-repeat 50% 50%;
+  background-size: 100% 100%;
+  opacity: 1;
+}
+.wrapp .main .tabele_open .book_open .start .part-right .answer .btn-answer .answer-btn-hover,
+.wrapp .main .tabele_open .book_open .question_1 .part-right .answer .btn-answer .answer-btn-hover,
+.wrapp .main .tabele_open .book_open .question_2 .part-right .answer .btn-answer .answer-btn-hover,
+.wrapp .main .tabele_open .book_open .question_3 .part-right .answer .btn-answer .answer-btn-hover,
+.wrapp .main .tabele_open .book_open .question_4 .part-right .answer .btn-answer .answer-btn-hover,
+.wrapp .main .tabele_open .book_open .question_5 .part-right .answer .btn-answer .answer-btn-hover,
+.wrapp .main .tabele_open .book_open .question_6 .part-right .answer .btn-answer .answer-btn-hover,
+.wrapp .main .tabele_open .book_open .question_7 .part-right .answer .btn-answer .answer-btn-hover,
+.wrapp .main .tabele_open .book_open .question_8 .part-right .answer .btn-answer .answer-btn-hover,
+.wrapp .main .tabele_open .book_open .question_9 .part-right .answer .btn-answer .answer-btn-hover,
+.wrapp .main .tabele_open .book_open .question_10 .part-right .answer .btn-answer .answer-btn-hover,
+.wrapp .main .tabele_open .book_open .question_11 .part-right .answer .btn-answer .answer-btn-hover,
+.wrapp .main .tabele_open .book_open .question_12 .part-right .answer .btn-answer .answer-btn-hover {
+  position: absolute;
+  display: block;
+  left: 0px;
+  top: 0;
+  width: 201px;
+  height: 37px;
+  background: url(images/deck/screen_5/next.png) no-repeat 50% 50%;
+  background-size: 100% 100%;
+  opacity: 0;
+  transition: 0.3s;
+}
+.wrapp .main .tabele_open .book_open .start .part-right .answer .btn-answer span,
+.wrapp .main .tabele_open .book_open .question_1 .part-right .answer .btn-answer span,
+.wrapp .main .tabele_open .book_open .question_2 .part-right .answer .btn-answer span,
+.wrapp .main .tabele_open .book_open .question_3 .part-right .answer .btn-answer span,
+.wrapp .main .tabele_open .book_open .question_4 .part-right .answer .btn-answer span,
+.wrapp .main .tabele_open .book_open .question_5 .part-right .answer .btn-answer span,
+.wrapp .main .tabele_open .book_open .question_6 .part-right .answer .btn-answer span,
+.wrapp .main .tabele_open .book_open .question_7 .part-right .answer .btn-answer span,
+.wrapp .main .tabele_open .book_open .question_8 .part-right .answer .btn-answer span,
+.wrapp .main .tabele_open .book_open .question_9 .part-right .answer .btn-answer span,
+.wrapp .main .tabele_open .book_open .question_10 .part-right .answer .btn-answer span,
+.wrapp .main .tabele_open .book_open .question_11 .part-right .answer .btn-answer span,
+.wrapp .main .tabele_open .book_open .question_12 .part-right .answer .btn-answer span {
+  position: absolute;
+  display: block;
+  z-index: 1;
+  color: #000;
+  width: 100%;
+  text-align: center;
+  line-height: 34px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.wrapp .main .tabele_open .book_open .start .part-right .answer .btn-answer:hover .answer-btn-img,
+.wrapp .main .tabele_open .book_open .question_1 .part-right .answer .btn-answer:hover .answer-btn-img,
+.wrapp .main .tabele_open .book_open .question_2 .part-right .answer .btn-answer:hover .answer-btn-img,
+.wrapp .main .tabele_open .book_open .question_3 .part-right .answer .btn-answer:hover .answer-btn-img,
+.wrapp .main .tabele_open .book_open .question_4 .part-right .answer .btn-answer:hover .answer-btn-img,
+.wrapp .main .tabele_open .book_open .question_5 .part-right .answer .btn-answer:hover .answer-btn-img,
+.wrapp .main .tabele_open .book_open .question_6 .part-right .answer .btn-answer:hover .answer-btn-img,
+.wrapp .main .tabele_open .book_open .question_7 .part-right .answer .btn-answer:hover .answer-btn-img,
+.wrapp .main .tabele_open .book_open .question_8 .part-right .answer .btn-answer:hover .answer-btn-img,
+.wrapp .main .tabele_open .book_open .question_9 .part-right .answer .btn-answer:hover .answer-btn-img,
+.wrapp .main .tabele_open .book_open .question_10 .part-right .answer .btn-answer:hover .answer-btn-img,
+.wrapp .main .tabele_open .book_open .question_11 .part-right .answer .btn-answer:hover .answer-btn-img,
+.wrapp .main .tabele_open .book_open .question_12 .part-right .answer .btn-answer:hover .answer-btn-img {
+  opacity: 0;
+}
+.wrapp .main .tabele_open .book_open .start .part-right .answer .btn-answer:hover .answer-btn-hover,
+.wrapp .main .tabele_open .book_open .question_1 .part-right .answer .btn-answer:hover .answer-btn-hover,
+.wrapp .main .tabele_open .book_open .question_2 .part-right .answer .btn-answer:hover .answer-btn-hover,
+.wrapp .main .tabele_open .book_open .question_3 .part-right .answer .btn-answer:hover .answer-btn-hover,
+.wrapp .main .tabele_open .book_open .question_4 .part-right .answer .btn-answer:hover .answer-btn-hover,
+.wrapp .main .tabele_open .book_open .question_5 .part-right .answer .btn-answer:hover .answer-btn-hover,
+.wrapp .main .tabele_open .book_open .question_6 .part-right .answer .btn-answer:hover .answer-btn-hover,
+.wrapp .main .tabele_open .book_open .question_7 .part-right .answer .btn-answer:hover .answer-btn-hover,
+.wrapp .main .tabele_open .book_open .question_8 .part-right .answer .btn-answer:hover .answer-btn-hover,
+.wrapp .main .tabele_open .book_open .question_9 .part-right .answer .btn-answer:hover .answer-btn-hover,
+.wrapp .main .tabele_open .book_open .question_10 .part-right .answer .btn-answer:hover .answer-btn-hover,
+.wrapp .main .tabele_open .book_open .question_11 .part-right .answer .btn-answer:hover .answer-btn-hover,
+.wrapp .main .tabele_open .book_open .question_12 .part-right .answer .btn-answer:hover .answer-btn-hover {
+  opacity: 1;
+}
+.wrapp .main .tabele_open .book_open .start .part-right .answer .btn-answer:hover span,
+.wrapp .main .tabele_open .book_open .question_1 .part-right .answer .btn-answer:hover span,
+.wrapp .main .tabele_open .book_open .question_2 .part-right .answer .btn-answer:hover span,
+.wrapp .main .tabele_open .book_open .question_3 .part-right .answer .btn-answer:hover span,
+.wrapp .main .tabele_open .book_open .question_4 .part-right .answer .btn-answer:hover span,
+.wrapp .main .tabele_open .book_open .question_5 .part-right .answer .btn-answer:hover span,
+.wrapp .main .tabele_open .book_open .question_6 .part-right .answer .btn-answer:hover span,
+.wrapp .main .tabele_open .book_open .question_7 .part-right .answer .btn-answer:hover span,
+.wrapp .main .tabele_open .book_open .question_8 .part-right .answer .btn-answer:hover span,
+.wrapp .main .tabele_open .book_open .question_9 .part-right .answer .btn-answer:hover span,
+.wrapp .main .tabele_open .book_open .question_10 .part-right .answer .btn-answer:hover span,
+.wrapp .main .tabele_open .book_open .question_11 .part-right .answer .btn-answer:hover span,
+.wrapp .main .tabele_open .book_open .question_12 .part-right .answer .btn-answer:hover span {
+  color: #fff;
+}
+.wrapp .main .tabele_open .book_open .start .help-mark-active,
+.wrapp .main .tabele_open .book_open .question_1 .help-mark-active,
+.wrapp .main .tabele_open .book_open .question_2 .help-mark-active,
+.wrapp .main .tabele_open .book_open .question_3 .help-mark-active,
+.wrapp .main .tabele_open .book_open .question_4 .help-mark-active,
+.wrapp .main .tabele_open .book_open .question_5 .help-mark-active,
+.wrapp .main .tabele_open .book_open .question_6 .help-mark-active,
+.wrapp .main .tabele_open .book_open .question_7 .help-mark-active,
+.wrapp .main .tabele_open .book_open .question_8 .help-mark-active,
+.wrapp .main .tabele_open .book_open .question_9 .help-mark-active,
+.wrapp .main .tabele_open .book_open .question_10 .help-mark-active,
+.wrapp .main .tabele_open .book_open .question_11 .help-mark-active,
+.wrapp .main .tabele_open .book_open .question_12 .help-mark-active {
+  background-image: url(images/deck/screen_5/help_mask.png) !important;
+}
+.wrapp .main .tabele_open .book_open .start #q1-video,
+.wrapp .main .tabele_open .book_open .question_1 #q1-video,
+.wrapp .main .tabele_open .book_open .question_2 #q1-video,
+.wrapp .main .tabele_open .book_open .question_3 #q1-video,
+.wrapp .main .tabele_open .book_open .question_4 #q1-video,
+.wrapp .main .tabele_open .book_open .question_5 #q1-video,
+.wrapp .main .tabele_open .book_open .question_6 #q1-video,
+.wrapp .main .tabele_open .book_open .question_7 #q1-video,
+.wrapp .main .tabele_open .book_open .question_8 #q1-video,
+.wrapp .main .tabele_open .book_open .question_9 #q1-video,
+.wrapp .main .tabele_open .book_open .question_10 #q1-video,
+.wrapp .main .tabele_open .book_open .question_11 #q1-video,
+.wrapp .main .tabele_open .book_open .question_12 #q1-video,
+.wrapp .main .tabele_open .book_open .start #q2-video,
+.wrapp .main .tabele_open .book_open .question_1 #q2-video,
+.wrapp .main .tabele_open .book_open .question_2 #q2-video,
+.wrapp .main .tabele_open .book_open .question_3 #q2-video,
+.wrapp .main .tabele_open .book_open .question_4 #q2-video,
+.wrapp .main .tabele_open .book_open .question_5 #q2-video,
+.wrapp .main .tabele_open .book_open .question_6 #q2-video,
+.wrapp .main .tabele_open .book_open .question_7 #q2-video,
+.wrapp .main .tabele_open .book_open .question_8 #q2-video,
+.wrapp .main .tabele_open .book_open .question_9 #q2-video,
+.wrapp .main .tabele_open .book_open .question_10 #q2-video,
+.wrapp .main .tabele_open .book_open .question_11 #q2-video,
+.wrapp .main .tabele_open .book_open .question_12 #q2-video,
+.wrapp .main .tabele_open .book_open .start #q3-video,
+.wrapp .main .tabele_open .book_open .question_1 #q3-video,
+.wrapp .main .tabele_open .book_open .question_2 #q3-video,
+.wrapp .main .tabele_open .book_open .question_3 #q3-video,
+.wrapp .main .tabele_open .book_open .question_4 #q3-video,
+.wrapp .main .tabele_open .book_open .question_5 #q3-video,
+.wrapp .main .tabele_open .book_open .question_6 #q3-video,
+.wrapp .main .tabele_open .book_open .question_7 #q3-video,
+.wrapp .main .tabele_open .book_open .question_8 #q3-video,
+.wrapp .main .tabele_open .book_open .question_9 #q3-video,
+.wrapp .main .tabele_open .book_open .question_10 #q3-video,
+.wrapp .main .tabele_open .book_open .question_11 #q3-video,
+.wrapp .main .tabele_open .book_open .question_12 #q3-video,
+.wrapp .main .tabele_open .book_open .start #q4-video,
+.wrapp .main .tabele_open .book_open .question_1 #q4-video,
+.wrapp .main .tabele_open .book_open .question_2 #q4-video,
+.wrapp .main .tabele_open .book_open .question_3 #q4-video,
+.wrapp .main .tabele_open .book_open .question_4 #q4-video,
+.wrapp .main .tabele_open .book_open .question_5 #q4-video,
+.wrapp .main .tabele_open .book_open .question_6 #q4-video,
+.wrapp .main .tabele_open .book_open .question_7 #q4-video,
+.wrapp .main .tabele_open .book_open .question_8 #q4-video,
+.wrapp .main .tabele_open .book_open .question_9 #q4-video,
+.wrapp .main .tabele_open .book_open .question_10 #q4-video,
+.wrapp .main .tabele_open .book_open .question_11 #q4-video,
+.wrapp .main .tabele_open .book_open .question_12 #q4-video,
+.wrapp .main .tabele_open .book_open .start #q5-video,
+.wrapp .main .tabele_open .book_open .question_1 #q5-video,
+.wrapp .main .tabele_open .book_open .question_2 #q5-video,
+.wrapp .main .tabele_open .book_open .question_3 #q5-video,
+.wrapp .main .tabele_open .book_open .question_4 #q5-video,
+.wrapp .main .tabele_open .book_open .question_5 #q5-video,
+.wrapp .main .tabele_open .book_open .question_6 #q5-video,
+.wrapp .main .tabele_open .book_open .question_7 #q5-video,
+.wrapp .main .tabele_open .book_open .question_8 #q5-video,
+.wrapp .main .tabele_open .book_open .question_9 #q5-video,
+.wrapp .main .tabele_open .book_open .question_10 #q5-video,
+.wrapp .main .tabele_open .book_open .question_11 #q5-video,
+.wrapp .main .tabele_open .book_open .question_12 #q5-video {
+  position: absolute;
+  display: block;
+  right: 0;
+  top: 0;
+  width: 399px;
+  height: auto;
+}
+.wrapp .main .tabele_open .book_open .start .help-active,
+.wrapp .main .tabele_open .book_open .question_1 .help-active,
+.wrapp .main .tabele_open .book_open .question_2 .help-active,
+.wrapp .main .tabele_open .book_open .question_3 .help-active,
+.wrapp .main .tabele_open .book_open .question_4 .help-active,
+.wrapp .main .tabele_open .book_open .question_5 .help-active,
+.wrapp .main .tabele_open .book_open .question_6 .help-active,
+.wrapp .main .tabele_open .book_open .question_7 .help-active,
+.wrapp .main .tabele_open .book_open .question_8 .help-active,
+.wrapp .main .tabele_open .book_open .question_9 .help-active,
+.wrapp .main .tabele_open .book_open .question_10 .help-active,
+.wrapp .main .tabele_open .book_open .question_11 .help-active,
+.wrapp .main .tabele_open .book_open .question_12 .help-active {
+  width: 400px !important;
+  height: 400px !important;
+  z-index: 20;
+}
+.wrapp .main .tabele_open .book_open .start .help,
+.wrapp .main .tabele_open .book_open .question_1 .help,
+.wrapp .main .tabele_open .book_open .question_2 .help,
+.wrapp .main .tabele_open .book_open .question_3 .help,
+.wrapp .main .tabele_open .book_open .question_4 .help,
+.wrapp .main .tabele_open .book_open .question_5 .help,
+.wrapp .main .tabele_open .book_open .question_6 .help,
+.wrapp .main .tabele_open .book_open .question_7 .help,
+.wrapp .main .tabele_open .book_open .question_8 .help,
+.wrapp .main .tabele_open .book_open .question_9 .help,
+.wrapp .main .tabele_open .book_open .question_10 .help,
+.wrapp .main .tabele_open .book_open .question_11 .help,
+.wrapp .main .tabele_open .book_open .question_12 .help {
+  position: absolute;
+  display: block;
+  right: 14px;
+  top: 10px;
+  width: 120px;
+  height: 120px;
+  background: url(images/deck/screen_5/page_ugol.png) no-repeat 50% 50%;
+  transition: all 500ms ease-in-out;
+  background-size: 100% 100%;
+  pointer-events: painted;
+  z-index: 10;
+}
+.wrapp .main .tabele_open .book_open .start .help-mark,
+.wrapp .main .tabele_open .book_open .question_1 .help-mark,
+.wrapp .main .tabele_open .book_open .question_2 .help-mark,
+.wrapp .main .tabele_open .book_open .question_3 .help-mark,
+.wrapp .main .tabele_open .book_open .question_4 .help-mark,
+.wrapp .main .tabele_open .book_open .question_5 .help-mark,
+.wrapp .main .tabele_open .book_open .question_6 .help-mark,
+.wrapp .main .tabele_open .book_open .question_7 .help-mark,
+.wrapp .main .tabele_open .book_open .question_8 .help-mark,
+.wrapp .main .tabele_open .book_open .question_9 .help-mark,
+.wrapp .main .tabele_open .book_open .question_10 .help-mark,
+.wrapp .main .tabele_open .book_open .question_11 .help-mark,
+.wrapp .main .tabele_open .book_open .question_12 .help-mark {
+  position: absolute;
+  display: block;
+  pointer-events: painted;
+  right: 0;
+  top: 0;
+  z-index: 1;
+  width: 107px;
+  height: 107px;
+  background: url(images/deck/screen_5/help_btn.png) no-repeat 50% 50%;
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+.wrapp .main .tabele_open .book_open .start .help-close,
+.wrapp .main .tabele_open .book_open .question_1 .help-close,
+.wrapp .main .tabele_open .book_open .question_2 .help-close,
+.wrapp .main .tabele_open .book_open .question_3 .help-close,
+.wrapp .main .tabele_open .book_open .question_4 .help-close,
+.wrapp .main .tabele_open .book_open .question_5 .help-close,
+.wrapp .main .tabele_open .book_open .question_6 .help-close,
+.wrapp .main .tabele_open .book_open .question_7 .help-close,
+.wrapp .main .tabele_open .book_open .question_8 .help-close,
+.wrapp .main .tabele_open .book_open .question_9 .help-close,
+.wrapp .main .tabele_open .book_open .question_10 .help-close,
+.wrapp .main .tabele_open .book_open .question_11 .help-close,
+.wrapp .main .tabele_open .book_open .question_12 .help-close {
+  position: absolute;
+  display: block;
+  width: 53px;
+  height: 43px;
+  left: 106px;
+  bottom: 106px;
+  cursor: pointer;
+  background-position-x: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0;
+  transition: all 200ms linear;
+  pointer-events: all;
+  background-image: url(images/deck/screen_5/close_help.png);
+}
+.wrapp .main .tabele_open .book_open .start .video,
+.wrapp .main .tabele_open .book_open .question_1 .video,
+.wrapp .main .tabele_open .book_open .question_2 .video,
+.wrapp .main .tabele_open .book_open .question_3 .video,
+.wrapp .main .tabele_open .book_open .question_4 .video,
+.wrapp .main .tabele_open .book_open .question_5 .video,
+.wrapp .main .tabele_open .book_open .question_6 .video,
+.wrapp .main .tabele_open .book_open .question_7 .video,
+.wrapp .main .tabele_open .book_open .question_8 .video,
+.wrapp .main .tabele_open .book_open .question_9 .video,
+.wrapp .main .tabele_open .book_open .question_10 .video,
+.wrapp .main .tabele_open .book_open .question_11 .video,
+.wrapp .main .tabele_open .book_open .question_12 .video {
+  position: absolute;
+  display: block;
+  right: 14px;
+  top: 10px;
+  width: 400px;
+  height: 360px;
+  z-index: 4;
+  opacity: 0;
+  background-color: white;
+}
+.wrapp .main .tabele_open .book_open .start .video .name,
+.wrapp .main .tabele_open .book_open .question_1 .video .name,
+.wrapp .main .tabele_open .book_open .question_2 .video .name,
+.wrapp .main .tabele_open .book_open .question_3 .video .name,
+.wrapp .main .tabele_open .book_open .question_4 .video .name,
+.wrapp .main .tabele_open .book_open .question_5 .video .name,
+.wrapp .main .tabele_open .book_open .question_6 .video .name,
+.wrapp .main .tabele_open .book_open .question_7 .video .name,
+.wrapp .main .tabele_open .book_open .question_8 .video .name,
+.wrapp .main .tabele_open .book_open .question_9 .video .name,
+.wrapp .main .tabele_open .book_open .question_10 .video .name,
+.wrapp .main .tabele_open .book_open .question_11 .video .name,
+.wrapp .main .tabele_open .book_open .question_12 .video .name {
+  position: absolute;
+  display: block;
+  right: 14px;
+  top: 172px;
+  font-size: 10px;
+  line-height: 13px;
+  text-align: right;
+  z-index: 2;
+}
+.wrapp .main .tabele_open .book_open .start .video-bg,
+.wrapp .main .tabele_open .book_open .question_1 .video-bg,
+.wrapp .main .tabele_open .book_open .question_2 .video-bg,
+.wrapp .main .tabele_open .book_open .question_3 .video-bg,
+.wrapp .main .tabele_open .book_open .question_4 .video-bg,
+.wrapp .main .tabele_open .book_open .question_5 .video-bg,
+.wrapp .main .tabele_open .book_open .question_6 .video-bg,
+.wrapp .main .tabele_open .book_open .question_7 .video-bg,
+.wrapp .main .tabele_open .book_open .question_8 .video-bg,
+.wrapp .main .tabele_open .book_open .question_9 .video-bg,
+.wrapp .main .tabele_open .book_open .question_10 .video-bg,
+.wrapp .main .tabele_open .book_open .question_11 .video-bg,
+.wrapp .main .tabele_open .book_open .question_12 .video-bg {
+  position: absolute;
+  display: block;
+  right: 14px;
+  top: 10px;
+  width: 400px;
+  height: 360px;
+  background-image: url(images/deck/screen_5/help_mask.png);
+  z-index: 4;
+  background-size: 100%;
+  opacity: 0;
+}
+.wrapp .main .tabele_open .book_open .start .part-left h3 {
+  margin: 20px 0 0 0;
+}
+.wrapp .main .tabele_open .book_open .start .part-left h5 {
+  width: 270px;
+  white-space: break-spaces;
+  font-weight: 500;
+}
+.wrapp .main .tabele_open .book_open .start .part-left .arrow {
+  bottom: -45px;
+}
+.wrapp .main .tabele_open .book_open .start .part-right h5 {
+  width: 268px;
+  white-space: break-spaces;
+  left: 44px;
+  top: 30px;
+  font-weight: 500;
+}
+.wrapp .main .tabele_open .book_open .start .part-right h2 {
+  left: 44px;
+}
+.wrapp .main .tabele_open .book_open .start .part-right .line {
+  position: relative;
+  top: 33px;
+  left: 44px;
+}
+.wrapp .main .tabele_open .book_open .start .part-right .check {
+  margin: 45px 0 0 44px;
+}
+.wrapp .main .tabele_open .book_open .start .part-right .check a {
+  color: #000;
+}
+.wrapp .main .tabele_open .book_open .start .part-right .check label {
+  padding-left: 5px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+.wrapp .main .tabele_open .book_open .start .part-right .check .custom-checkbox {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+.wrapp .main .tabele_open .book_open .start .part-right .check .custom-checkbox + label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+.wrapp .main .tabele_open .book_open .start .part-right .check .custom-checkbox + label::before {
+  content: '';
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+  border: solid 1px #979797;
+  background-color: #ffffff;
+}
+.wrapp .main .tabele_open .book_open .start .part-right .check .custom-checkbox:checked + label::before {
+  border-color: #0b76ef;
+  background-color: #0b76ef;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+}
+.wrapp .main .tabele_open .book_open .start .part-right .banana {
+  width: 200px;
+  height: 200px;
+  background: url(images/deck/coco-makak-2-x@2x.png) no-repeat center bottom;
+  position: absolute;
+  left: 0;
+  bottom: -45px;
+}
+.wrapp .main .tabele_open .book_open .start .part-right .btn_goToQuestion {
+  position: relative;
+  display: block;
+  margin-top: 15px;
+  width: 201px;
+  height: 37px;
+  cursor: pointer;
+  left: 170px;
+  top: 105px;
+}
+.wrapp .main .tabele_open .book_open .start .part-right .btn_goToQuestion .btn-img {
+  position: absolute;
+  display: block;
+  left: 0px;
+  top: 0;
+  width: 201px;
+  height: 37px;
+  background: url(images/deck/screen_5/next_h.png) no-repeat 50% 50%;
+  background-size: 100% 100%;
+  opacity: 1;
+}
+.wrapp .main .tabele_open .book_open .start .part-right .btn_goToQuestion .btn-hover {
+  position: absolute;
+  display: block;
+  left: 0px;
+  top: 0;
+  width: 201px;
+  height: 37px;
+  background: url(images/deck/screen_5/next.png) no-repeat 50% 50%;
+  background-size: 100% 100%;
+  opacity: 0;
+  transition: 0.3s;
+}
+.wrapp .main .tabele_open .book_open .start .part-right .btn_goToQuestion span {
+  position: absolute;
+  display: block;
+  z-index: 1;
+  color: #000;
+  width: 100%;
+  text-align: center;
+  line-height: 34px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.wrapp .main .tabele_open .book_open .start .part-right .btn:hover .btn-img {
+  opacity: 0;
+}
+.wrapp .main .tabele_open .book_open .start .part-right .btn:hover .btn-hover {
+  opacity: 1;
+}
+.wrapp .main .tabele_open .book_open .start .part-right .btn:hover span {
+  color: #fff;
+}
+.wrapp .main .tabele_open .book_open .question_1 .part-left .step {
+  background-image: url(images/deck/step/step1.png);
+}
+.wrapp .main .tabele_open .book_open .question_1 .part-right .answer_1 .answer-items .answer-item {
+  width: 165px;
+  height: 50px;
+}
+.wrapp .main .tabele_open .book_open .question_2 .part-right .answer_2 .answer-items {
+  display: flex;
+  flex-wrap: wrap;
+}
+.wrapp .main .tabele_open .book_open .question_2 .part-right .answer_2 .answer-items .answer-item {
+  width: 180px;
+  height: 50px;
+}
+.wrapp .main .tabele_open .book_open .question_2 .part-right .answer_2 .answer-btn-question_2 {
+  bottom: -200px;
+}
+.wrapp .main .tabele_open .book_open .question_2 .part-left .step {
+  background-image: url(images/deck/step/step2.png);
+}
+.wrapp .main .tabele_open .book_open .question_3 .part-right .answer_3 .answer-items {
+  display: flex;
+  flex-wrap: wrap;
+}
+.wrapp .main .tabele_open .book_open .question_3 .part-right .answer_3 .answer-items .answer-item {
+  width: 338px;
+  height: 50px;
+}
+.wrapp .main .tabele_open .book_open .question_3 .part-left .step {
+  background-image: url(images/deck/step/step3.png);
+}
+.wrapp .main .tabele_open .book_open .question_4 .part-right .answer_4 .answer-items {
+  display: flex;
+  flex-wrap: wrap;
+}
+.wrapp .main .tabele_open .book_open .question_4 .part-right .answer_4 .answer-items .answer-item {
+  width: 180px;
+  height: 50px;
+}
+.wrapp .main .tabele_open .book_open .question_4 .part-right .answer_4 .answer-btn-question_4 {
+  bottom: -200px;
+}
+.wrapp .main .tabele_open .book_open .question_4 .part-left .step {
+  background-image: url(images/deck/step/step4.png);
+}
+.wrapp .main .tabele_open .book_open .question_5 .part-right .answer_5 .answer-items {
+  display: flex;
+  flex-wrap: wrap;
+}
+.wrapp .main .tabele_open .book_open .question_5 .part-right .answer_5 .answer-items .answer-item {
+  width: 180px;
+  height: 150px;
+}
+.wrapp .main .tabele_open .book_open .question_5 .part-right .answer_5 .answer-items .answer-item .img_1 {
+  background-image: url(images/deck/img_black/q5_stafil.png);
+}
+.wrapp .main .tabele_open .book_open .question_5 .part-right .answer_5 .answer-items .answer-item .img_2 {
+  background-image: url(images/deck/img_black/q5_bacila.png);
+}
+.wrapp .main .tabele_open .book_open .question_5 .part-right .answer_5 .answer-items .answer-item .img_3 {
+  background-image: url(images/deck/img_black/q5_virus.png);
+}
+.wrapp .main .tabele_open .book_open .question_5 .part-right .answer_5 .answer-items .answer-item .img_4 {
+  background-image: url(images/deck/img_black/q5_infusoria.png);
+}
+.wrapp .main .tabele_open .book_open .question_5 .part-right .answer_5 .answer-items .answer-item .answer-text {
+  top: 95px;
+  left: 0;
+}
+.wrapp .main .tabele_open .book_open .question_5 .part-right .answer_5 .answer-items .answer-item .answer-rama {
+  width: 119px;
+  height: 96px;
+  top: -9px;
+  left: -4px;
+}
+.wrapp .main .tabele_open .book_open .question_5 .part-right .answer_5 .answer-btn-question_5 {
+  bottom: 0;
+}
+.wrapp .main .tabele_open .book_open .question_5 .part-left .step {
+  background-image: url(images/deck/step/step5.png);
+}
+.wrapp .main .tabele_open .book_open .question_6 .part-right .answer_6 .answer-items {
+  display: flex;
+  flex-wrap: wrap;
+}
+.wrapp .main .tabele_open .book_open .question_6 .part-right .answer_6 .answer-items .answer-item {
+  width: 380px;
+  height: 50px;
+}
+.wrapp .main .tabele_open .book_open .question_6 .part-left h3 {
+  margin-top: 30px;
+}
+.wrapp .main .tabele_open .book_open .question_6 .part-left .step {
+  background-image: url(images/deck/step/step6.png);
+}
+.wrapp .main .tabele_open .book_open .question_6 .part-left .photo-question .photo_1 {
+  position: absolute;
+  top: 29px;
+  left: 19px;
+  width: 214px;
+  height: 153px;
+  background: url(images/deck/photo/q6_screen-photo@3x.png) no-repeat center center;
+  background-size: contain;
+}
+.wrapp .main .tabele_open .book_open .question_7 .part-right .answer_7 .answer-items {
+  display: flex;
+  flex-wrap: wrap;
+}
+.wrapp .main .tabele_open .book_open .question_7 .part-right .answer_7 .answer-items .answer-item {
+  width: 380px;
+  height: 50px;
+}
+.wrapp .main .tabele_open .book_open .question_7 .part-left h3 {
+  margin-top: 30px;
+}
+.wrapp .main .tabele_open .book_open .question_7 .part-left .step {
+  background-image: url(images/deck/step/step7.png);
+}
+.wrapp .main .tabele_open .book_open .question_7 .part-left .photo-question .photo_1 {
+  position: absolute;
+  top: 29px;
+  left: 19px;
+  width: 214px;
+  height: 153px;
+  background: url(images/deck/photo/q7_screen-photo@3x.png) no-repeat center center;
+  background-size: contain;
+}
+.wrapp .main .tabele_open .book_open .question_7 .help .help-mark {
+  display: none;
+}
+.wrapp .main .tabele_open .book_open .question_8 .part-right .answer_8 .answer-items {
+  display: flex;
+  flex-wrap: wrap;
+}
+.wrapp .main .tabele_open .book_open .question_8 .part-right .answer_8 .answer-items .answer-item {
+  width: 380px;
+  height: 50px;
+}
+.wrapp .main .tabele_open .book_open .question_8 .part-left h3 {
+  margin-top: 30px;
+}
+.wrapp .main .tabele_open .book_open .question_8 .part-left .step {
+  background-image: url(images/deck/step/step8.png);
+}
+.wrapp .main .tabele_open .book_open .question_8 .part-left .photo-question .photo_1 {
+  position: absolute;
+  top: 29px;
+  left: 19px;
+  width: 214px;
+  height: 153px;
+  background: url(images/deck/photo/q8_screen-photo@3x.png) no-repeat center center;
+  background-size: contain;
+}
+.wrapp .main .tabele_open .book_open .question_8 .help .help-mark {
+  display: none;
+}
+.wrapp .main .tabele_open .book_open .question_9 .part-right .answer_9 .answer-items {
+  display: flex;
+  flex-wrap: wrap;
+}
+.wrapp .main .tabele_open .book_open .question_9 .part-right .answer_9 .answer-items .answer-item {
+  width: 180px;
+  height: 150px;
+}
+.wrapp .main .tabele_open .book_open .question_9 .part-right .answer_9 .answer-items .answer-item .img_1 {
+  background-image: url(images/deck/img_black/q9_original-baneotsin-maz-20-g-www-piluli-ru-eapt-17654@2x.png);
+}
+.wrapp .main .tabele_open .book_open .question_9 .part-right .answer_9 .answer-items .answer-item .img_2 {
+  background-image: url(images/deck/img_black/q9_0175@2x.png);
+}
+.wrapp .main .tabele_open .book_open .question_9 .part-right .answer_9 .answer-items .answer-item .img_3 {
+  background-image: url(images/deck/img_black/q9_qdf-ioi-nke-s-6-bx-mqjd-2-n-2-a@3x.png);
+}
+.wrapp .main .tabele_open .book_open .question_9 .part-right .answer_9 .answer-items .answer-item .img_4 {
+  background-image: url(images/deck/img_black/q9_fukorcin-1@3x.png);
+}
+.wrapp .main .tabele_open .book_open .question_9 .part-right .answer_9 .answer-items .answer-item .answer-text {
+  top: 95px;
+  left: 0;
+}
+.wrapp .main .tabele_open .book_open .question_9 .part-right .answer_9 .answer-items .answer-item .answer-rama {
+  width: 119px;
+  height: 96px;
+  top: -9px;
+  left: -4px;
+}
+.wrapp .main .tabele_open .book_open .question_9 .part-right .answer_9 .answer-btn-question_9 {
+  bottom: 0;
+}
+.wrapp .main .tabele_open .book_open .question_9 .part-left .step {
+  background-image: url(images/deck/step/step9.png);
+}
+.wrapp .main .tabele_open .book_open .question_9 .help .help-mark {
+  display: none;
+}
+.wrapp .main .tabele_open .book_open .question_10 .part-right .answer_10 .answer-items {
+  display: flex;
+  flex-wrap: wrap;
+}
+.wrapp .main .tabele_open .book_open .question_10 .part-right .answer_10 .answer-items .answer-item {
+  width: 380px;
+  height: 50px;
+}
+.wrapp .main .tabele_open .book_open .question_10 .part-left h3 {
+  margin-top: 30px;
+}
+.wrapp .main .tabele_open .book_open .question_10 .part-left .step {
+  background-image: url(images/deck/step/step10.png);
+}
+.wrapp .main .tabele_open .book_open .question_10 .part-left .photo-question .photo_1 {
+  position: absolute;
+  top: 29px;
+  left: 19px;
+  width: 214px;
+  height: 153px;
+  background: url(images/deck/photo/q10_screen-photo@3x.png) no-repeat center center;
+  background-size: contain;
+}
+.wrapp .main .tabele_open .book_open .question_10 .help .help-mark {
+  display: none;
+}
+.wrapp .main .tabele_open .book_open .question_11 .part-right .answer_11 .answer-items {
+  display: flex;
+  flex-wrap: wrap;
+}
+.wrapp .main .tabele_open .book_open .question_11 .part-right .answer_11 .answer-items .answer-item {
+  width: 380px;
+  height: 50px;
+}
+.wrapp .main .tabele_open .book_open .question_11 .part-left h3 {
+  margin-top: 30px;
+}
+.wrapp .main .tabele_open .book_open .question_11 .part-left .step {
+  background-image: url(images/deck/step/step11.png);
+}
+.wrapp .main .tabele_open .book_open .question_11 .part-left .photo-question .photo_1 {
+  position: absolute;
+  top: 29px;
+  left: 19px;
+  width: 214px;
+  height: 153px;
+  background: url(images/deck/photo/q11_screen-photo@3x.png) no-repeat center center;
+  background-size: contain;
+}
+.wrapp .main .tabele_open .book_open .question_11 .help .help-mark {
+  display: none;
+}
+.wrapp .main .tabele_open .book_open .question_12 .part-right .answer_12 .answer-items {
+  display: flex;
+  flex-wrap: wrap;
+}
+.wrapp .main .tabele_open .book_open .question_12 .part-right .answer_12 .answer-items .answer-item {
+  width: 180px;
+  height: 50px;
+}
+.wrapp .main .tabele_open .book_open .question_12 .part-right .answer_12 .answer-btn-question_4 {
+  bottom: -200px;
+}
+.wrapp .main .tabele_open .book_open .question_12 .part-left .step {
+  background-image: url(images/deck/step/step12.png);
+}
+.wrapp .main .tabele_open .book_open .question_12 .help .help-mark {
+  display: none;
+}
+.wrapp .main .tabele_open .book_open #banana {
+  position: absolute;
+  display: block;
+  left: 190px;
+  top: 380px;
+  width: 201px;
+  height: 151px;
+  background-size: 100% !important;
+  background-position-y: bottom !important;
+  background: url(images/deck/screen_5/question_monkey_d.png) no-repeat center;
+}
+.wrapp .main .tabele_open .book_open #plusTime {
+  position: absolute;
+  display: block;
+  right: -180px;
+  top: 100px;
+  width: 80px;
+  height: 40px;
+  background-color: #f6cf4f;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition-duration: 0s;
+  transform: translateY(0);
+  opacity: 0;
+}
+.wrapp .main .blockEndQuestions {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: url(images/deck/time-registration@3x.jpg) no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrapp .main .blockEndQuestions .time {
+  width: 200px;
+  height: 100%;
+  background: url(images/deck/screen_end/watch-2-x@2x.png) no-repeat;
+  background-position-y: bottom;
+  position: relative;
+}
+.wrapp .main .blockEndQuestions .time-text {
+  position: absolute;
+  top: 501px;
+  left: 61px;
+  font-family: a_LCDNova;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+.wrapp .main .blockEndQuestions .text {
+  width: 200px;
+  height: 100%;
+  position: relative;
+}
+.wrapp .main .blockEndQuestions .text .yellow {
+  position: absolute;
+  top: 220px;
+  left: -150px;
+  font-family: Pattaya;
+  font-size: 55px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.31;
+  letter-spacing: normal;
+  color: #f5d02a;
+}
+.wrapp .main .blockEndQuestions .text .black {
+  position: absolute;
+  top: 233px;
+  left: -150px;
+  font-family: Pattaya;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.08;
+  letter-spacing: normal;
+  color: #000000;
+}
+.wrapp .main .blockEndQuestions .text #end-time {
+  position: absolute;
+  top: 300px;
+  left: -128px;
+  font-family: a_LCDNova;
+  font-size: 32px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+.wrapp .main .blockEndQuestions .text .result {
+  position: absolute;
+  top: 400px;
+  left: -150px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+.wrapp .main .blockEndQuestions .form {
+  width: 400px;
+  height: 100%;
+  position: relative;
+}
+.wrapp .main .blockEndQuestions .form form {
+  width: auto;
+  height: auto;
+  position: absolute;
+  left: -80px;
+  top: 230px;
+  margin: 0 auto;
+  text-align: center;
+}
+.wrapp .main .blockEndQuestions .form form .input {
+  margin: 0 auto 10px;
+  text-align: center;
+  padding: 6px 67.5px;
+  border: solid 1px #979797;
+  background-color: #ffffff;
+  display: block;
+}
+.wrapp .main .blockEndQuestions .form form .submit {
+  display: block;
+  margin: 60px auto 0;
+  width: 201px;
+  height: 37px;
+  background: url(images/deck/screen_5/next_h.png) no-repeat 50% 50%;
+  background-size: 100% 100%;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+.wrapp .main .blockEndQuestions .form form .submit:hover {
+  background: url(images/deck/screen_5/next.png) no-repeat 50% 50%;
+  background-size: 100% 100%;
+  color: white;
+}
+.wrapp .main .blockEndQuestions .form .registration {
+  position: absolute;
+  left: 118px;
+  top: 185px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4a4a4a;
+}
+.wrapp .main .blockEndQuestions .form .password {
+  position: absolute;
+  left: 91px;
+  top: 315px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4a4a4a;
+}
+.wrapp .main .mainClock {
+  left: 0 !important;
+}
+.wrapp .main .clock {
+  width: 200px;
+  height: 590px;
+  bottom: 0;
+  left: 200px;
+  align-self: flex-end;
+  position: relative;
+  background: url(images/deck/screen_4/watch-2-x@2x.png) no-repeat bottom center;
+}
+.wrapp .main .clock p {
+  font-family: a_LCDNova;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+  position: absolute;
+  top: 341px;
+  left: 43px;
+}
+.wrapp .main .arm {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  visibility: visible;
+  background: rgba(255, 255, 255, 0.7);
+  z-index: 100;
+  transition: all 300ms linear;
+}
+.wrapp .main .arm-block {
+  position: absolute;
+  display: block;
+  width: 738px;
+  height: 554px;
+  left: 399px;
+  bottom: -554px;
+  transform: rotate(-45deg);
+  transition: all 800ms ease-out;
+}
+.wrapp .main .arm-block-image {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: all 300ms linear;
+}
+.wrapp .main .arm-block-image .hand {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url(images/deck/arm/arm.png) no-repeat center bottom;
+  background-size: 100% 100%;
+  left: 0;
+  top: 0;
+  transition: all 300ms linear;
+  z-index: 2;
+}
+.wrapp .main .arm-block-image .hand-img {
+  position: absolute;
+  display: block;
+  width: 364px;
+  height: 362px;
+  background-position-x: center !important;
+  background-position-y: center !important;
+  background-size: cover !important;
+  left: 23px;
+  top: 17px;
+  z-index: 1;
+}
+.wrapp .main .arm-block-image .close {
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 43px;
+  background: url(images/deck/arm/close_hand.png) no-repeat 50% 50%;
+  background-size: 100% 100%;
+  left: 404px;
+  top: 6px;
+  cursor: pointer;
+  transition: all 300ms linear;
+  z-index: 5;
+}
+#footer {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 270px;
+  background: #000000;
+}
+#footer-content {
+  position: relative;
+  display: block;
+  width: 1000px;
+  margin: 0 auto;
+}
+#footer-company {
+  position: relative;
+  display: block;
+  padding-left: 114px;
+  background: url(images/deck/leon.svg) no-repeat 0 0%;
+  font-size: 12px;
+  line-height: 20px;
+  color: #fff;
+  font-weight: 300;
+  top: 30px;
+}
+#footer-company-info {
+  margin-top: 50px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #fff;
+  font-weight: 300;
+}
+#footer-pn {
+  margin-top: 20px;
+  font-size: 10px;
+  line-height: 14px;
+  color: #fff;
+  font-weight: 300;
+}
+#footer-right {
+  position: absolute;
+  display: block;
+  top: 30px;
+  right: 0px;
+  text-align: right;
+}
+.footer-right-links {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  white-space: nowrap;
+  margin-left: 54px;
+}
+.footer-right-links a {
+  position: relative;
+  display: block;
+  margin-bottom: 20px;
+  color: #F5D02A;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 20px;
+}
+.footer-right-links a.breffi-link {
+  position: relative;
+  display: block;
+  margin-top: 85px;
+}

@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js"></script>
+    <title>LEO_2</title>    
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pattaya&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapp">
+        <div class="main background-deck">
+                <div class="tabele_open">
+                    <div class="book_open">
+                        <div class="start">
+                            <div class="part-left">
+                                <div class="chapter"></div>
+                                <h2>Детские<br>дерматозы</h2>
+                                <h3>ПРИНЦ ДЖУНГЛЕЙ</h3>
+                                <img class="line-question" src="./images/deck/screen_5/line-1-3-x@2x.png" alt="line">
+                                <h5>Друзья, вместе с Николаем Николаевичем Мурашкиным вы помогли маленькому пациенту справиться с гнойничковыми заболеваниями кожи. Затем в кабинете врача вступили в бой и совместными усилиями сокрушили атопический дерматит. Однако, коварные дерматозы решились на последнюю атаку! Помогите одолеть врага раз и навсегда, чтобы наш маленький принц снова стал здоровым, а его волшебный мир самым счастливым и безопасным. </h5>
+                                <img class="arrow" src="./images/deck/screen_5/arrow-3-3-x@2x.png" alt="arrow">
+                            </div>
+                            <div class="part-right">
+                                <h5>Ответьте быстрее других участников квеста на все вопросы. При неправильном ответе к вашему игровому времени добавляется <strong>две штрафных минуты.</strong></h5>
+                                <img class="line" src="./images/deck/screen_5/line-1-3-x@2x.png" alt="line">
+                                <h2>Внимание, <br>у Вас есть всего 1 попытка!</h2>
+                                <div class="check">
+                                    <input class="custom-checkbox" type="checkbox" name="rules" id="rules">
+                                    <label for="rules">Согласен с &nbsp; <a href="#">правилами</a> &nbsp; конкурса</label>
+                                </div>
+                                <div class="banana"></div>
+                                <div class="btn_goToQuestion">
+                                    <div class="btn-img"></div>
+                                    <div class="btn-hover"></div>
+                                    <span data-btn="answer" id="">начать!</span>
+                                </div>    
+                            </div>
+                        </div>    
+                        <div class="question_1 none">
+                            <div class="part-left">
+                                <div class="chapter"></div>
+                                <h2>Детские<br> дерматозы</h2>
+                                <h3>Вопрос #1</h3>
+                                <img class="line-question" src="./images/deck/screen_5/line-1-3-x@2x.png" alt="line">
+                                <h5>Что характерно для атопического<br>дерматита?</h5>
+                                <img class="arrow" src="./images/deck/screen_5/arrow-3-3-x@2x.png" alt="arrow">
+                                <div class="banana"></div>
+                                <div class="step"></div>
+                            </div>
+                            <div class="part-right">
+                                <h4>Варианты ответов:</h4>
+                                <img class="line-answer" src="./images/deck/screen_5/line-1-3-x@2x.png" alt="line">
+                                <div class="answer answer_1">
+                                    <div class="answer-items">
+                                        <div class="answer-item correct">
+                                            <div class="answer-number">1</div>   
+                                            <div class="answer-text">Хроническое течение</div>    
+                                            <!-- <div class="answer-rama"></div> -->
+                                        </div>   
+                                        <div class="answer-item correct">
+                                            <div class="answer-number">2</div>   
+                                            <div class="answer-text">Может осложниться вторичной инфекцией</div>    
+                                            <!-- <div class="answer-rama"></div> -->
+                                        </div>  
+                                        <div class="answer-item">
+                                            <div class="answer-number">3</div>   
+                                            <div class="answer-text">Дебют заболевания в первый год жизни</div>    
+                                            <!-- <div class="answer-rama"></div> -->
+                                        </div> 
+                                        <div class="answer-item">
+                                            <div class="answer-number">4</div>   
+                                            <div class="answer-text">Обычно локализуется в зоне ношения подгузников</div>    
+                                            <!-- <div class="answer-rama"></div> -->
+                                        </div> 
+                                        <div class="answer-item">
+                                            <div class="answer-number">5</div>   
+                                            <div class="answer-text">Редкие обострения</div>    
+                                            <!-- <div class="answer-rama"></div> -->
+                                        </div> 
+                                    </div>     
+                                    <div class="btn-answer answer-btn-question_1">
+                                        <div class="answer-btn-img"></div>
+                                        <div class="answer-btn-hover"></div>
+                                        <span data-btn="answer"  id="answer_1">ответить</span>
+                                        <span data-btn="next" class="goToNextQuestion none" id="goToQuestion_2">дaлee</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="help">
+                                <div class="help-mark" data-key="q1-video"></div>
+                                <div class="help-close" data-key="q1-video"></div>
+                            </div>
+                            <div class="video">
+                                <video src="./images/deck/screen_6/q2.mp4" id="q1-video"></video>
+                                <div class="name">
+                                    <b>Н. Н. Мурашкин</b>
+                                    <p>детский дерматолог,</p>
+                                    <p>д. м. н., профессор</p>
+                                </div>
+                            </div>
+                            <div class="video-bg"></div>
+                        </div>
+                        <div class="question_2 none">
+                            <div class="part-left">
+                                <div class="chapter"></div>
+                                <h2>Детские<br> дерматозы</h2>
+                                <h3>Вопрос #2</h3>
+                                <img class="line-question" src="./images/deck/screen_5/line-1-3-x@2x.png" alt="line">
+                                <h5>Основной внешний фактор, который<br>способствует развитию выраженных<br>клинических проявлений атопического<br>дерматита в детском возрасте:</h5>
+                                <img class="arrow" src="./images/deck/screen_5/arrow-3-3-x@2x.png" alt="arrow">
+                                <div class="banana"></div>
+                                <div class="step"></div>
+                            </div>
+                            <div class="part-right">
+                                <h4>Варианты ответов:</h4>
+                                <img class="line-answer" src="./images/deck/screen_5/line-1-3-x@2x.png" alt="line">
+                                <div class="answer answer_2">
+                                    <div class="answer-items">
+                                        <div class="answer-item correct">
+                                            <div class="answer-number">1</div>   
+                                            <div class="answer-text">Пищевая аллергия</div>    
+                                            <!-- <div class="answer-rama"></div> -->
+                                        </div>   
+                                        <div class="answer-item">
+                                            <div class="answer-number">2</div>   
+                                            <div class="answer-text">Пыльцевая аллергия</div>    
+                                            <!-- <div class="answer-rama"></div> -->
+                                        </div>  
+                                        <div class="answer-item">
+                                            <div class="answer-number">3</div>   
+                                            <div class="answer-text">Контактная аллергия%</div>    
+                                            <!-- <div class="answer-rama"></div> -->
+                                        </div> 
+                                    </div>     
+                                    <div class="btn-answer answer-btn-question_2">
+                                        <div class="answer-btn-img"></div>
+                                        <div class="answer-btn-hover"></div>
+                                        <span data-btn="answer"  id="answer_2">ответить</span>
+                                        <span data-btn="next" class="goToNextQuestion none" id="goToQuestion_3">дaлee</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="help">
+                                <div class="help-mark" data-key="q3-video"></div>
+                                <div class="help-close" data-key="q3-video"></div>
+                            </div>
+                            <div class="video">
+                                <video src="" id="q3-video"></video>
+                                <div class="name">
+                                    <b>Н. Н. Мурашкин</b>
+                                    <p>детский дерматолог,</p>
+                                    <p>д. м. н., профессор</p>
+                                </div>
+                            </div>
+                            <div class="video-bg"></div>
+                        </div>
+                        <div class="question_3 none">
+                            <div class="part-left">
+                                <div class="chapter"></div>
+                                <h2>Детские<br> дерматозы</h2>
+                                <h3>Вопрос #3</h3>
+                                <img class="line-question" src="./images/deck/screen_5/line-1-3-x@2x.png" alt="line">
+                                <h5>Присоединение вторичного<br>возбудителя к атопическому?<br>дерматиту…</h5>
+                                <img class="arrow" src="./images/deck/screen_5/arrow-3-3-x@2x.png" alt="arrow">
+                                <div class="banana"></div>
+                                <div class="step"></div>
+                            </div>
+                            <div class="part-right">
+                                <h4>Варианты ответов:</h4>
+                                <img class="line-answer" src="./images/deck/screen_5/line-1-3-x@2x.png" alt="line">
+                                <div class="answer answer_3">
+                                    <div class="answer-items">
+                                        <div class="answer-item correct">
+                                            <div class="answer-number">1</div>   
+                                            <div class="answer-text">…может привести к утяжелению течения заболевания</div>    
+                                            <!-- <div class="answer-rama"></div> -->
+                                        </div>   
+                                        <div class="answer-item">
+                                            <div class="answer-number">2</div>   
+                                            <div class="answer-text">…может способствовать недостаточной эффективности терапии</div>    
+                                            <!-- <div class="answer-rama"></div> -->
+                                        </div>  
+                                        <div class="answer-item">
+                                            <div class="answer-number">3</div>   
+                                            <div class="answer-text">…улучшает аффинность иммунных тел к инфекционному агенту</div>    
+                                            <!-- <div class="answer-rama"></div> -->
+                                        </div> 
+                                    </div>     
+                                    <div class="btn-answer answer-btn-question_3">
+                                        <div class="answer-btn-img"></div>
+                                        <div class="answer-btn-hover"></div>
+                                        <span data-btn="answer" id="answer_3">ответить</span>
+                                        <span data-btn="next" class="goToNextQuestion none" id="goToQuestion_4">дaлee</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="help">
+                                <div class="help-mark" data-key="q4-video"></div>
+                                <div class="help-close" data-key="q4-video"></div>
+                            </div>
+                            <div class="video">
+                                <video src="./images/deck/screen_6/q2.mp4" id="q2-video"></video>
+                                <div class="name">
+                                    <b>Н. Н. Мурашкин</b>
+                                    <p>детский дерматолог,</p>
+                                    <p>д. м. н., профессор</p>
+                                </div>
+                            </div>
+                            <div class="video-bg"></div>
+                        </div>
+                        <div class="question_4 none">
+                            <div class="part-left">
+                                <div class="chapter"></div>
+                                <h2>Детские<br> дерматозы</h2>
+                                <h3>Вопрос #4</h3>
+                                <img class="line-question" src="./images/deck/screen_5/line-1-3-x@2x.png" alt="line">
+                                <h5>Что характерно для гнойничковых<br>заболеваний кожи (пиодермий)?</h5>
+                                <img class="arrow" src="./images/deck/screen_5/arrow-3-3-x@2x.png" alt="arrow">
+                                <div class="banana"></div>
+                                <div class="step"></div>
+                            </div>
+                            <div class="part-right">
+                                <h4>Варианты ответов:</h4>
+                                <img class="line-answer" src="./images/deck/screen_5/line-1-3-x@2x.png" alt="line">
+                                <div class="answer answer_4">
+                                    <div class="answer-items">
+                                        <div class="answer-item correct">
+                                            <div class="answer-number">1</div>   
+                                            <div class="answer-text">Нет специфической<br>локализации</div>    
+                                            <!-- <div class="answer-rama"></div> -->
+                                        </div>   
+                                        <div class="answer-item">
+                                            <div class="answer-number">2</div>   
+                                            <div class="answer-text">Разнообразие<br>клинических форм</div>    
+                                            <!-- <div class="answer-rama"></div> -->
+                                        </div>  
+                                        <div class="answer-item">
+                                            <div class="answer-number">3</div>   
+                                            <div class="answer-text">Нагноения или<br>эрозии</div>    
+                                            <!-- <div class="answer-rama"></div> -->
+                                        </div> 
+                                        <div class="answer-item">
+                                            <div class="answer-number">4</div>   
+                                            <div class="answer-text">Генетическая<br>предрасположенность</div>    
+                                            <!-- <div class="answer-rama"></div> -->
+                                        </div> 
+                                    </div>     
+                                    <div class="btn-answer answer-btn-question_4">
+                                        <div class="answer-btn-img"></div>
+                                        <div class="answer-btn-hover"></div>
+                                        <span data-btn="answer" id="answer_4">ответить</span>
+                                        <span data-btn="next" class="goToNextQuestion none" id="goToQuestion_5">дaлee</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="help">
+                                <div class="help-mark" data-key="q5-video"></div>
+                                <div class="help-close" data-key="q5-video"></div>
+                            </div>
+                            <div class="video">
+                                <video src="./images/deck/screen_6/q2.mp4" id="q4-video"></video>
+                                <div class="name">
+                                    <b>Н. Н. Мурашкин</b>
+                                    <p>детский дерматолог,</p>
+                                    <p>д. м. н., профессор</p>
+                                </div>
+                            </div>
+                            <div class="video-bg"></div>
+                        </div>
+                        <div class="question_5 none">
+                            <div class="part-left">
+                                <div class="chapter"></div>
+                                <h2>Детские<br> дерматозы</h2>
+                                <h3>Вопрос #5</h3>
+                                <img class="line-question" src="./images/deck/screen_5/line-1-3-x@2x.png" alt="line">
+                                <h5>На какой возбудитель в первую<br>очередь должно быть направлено<br>лечение при гнойничковых<br>заболеваниях кожи?</h5>
+                                <img class="arrow" src="./images/deck/screen_5/arrow-3-3-x@2x.png" alt="arrow">
+                                <div class="banana"></div>
+                                <div class="step"></div>
+                            </div>
+                            <div class="part-right">
+                                <h4>Варианты ответов:</h4>
+                                <img class="line-answer" src="./images/deck/screen_5/line-1-3-x@2x.png" alt="line">
+                                <div class="answer answer_5">
+                                    <div class="answer-items">
+                                        <div class="answer-item correct">
+                                            <div class="answer-number">1</div>   
+                                            <div class="answer-img img_1"></div>
+                                            <div class="answer-text">Грам-положительные<br>бактерии (стрептококки <br>и стафилококки)</div>    
+                                            <div class="answer-rama"></div>
+                                        </div>   
+                                        <div class="answer-item">
+                                            <div class="answer-number">2</div>   
+                                            <div class="answer-img img_2"></div>
+                                            <div class="answer-text">Грам-отрицательные<br>бактерии (палочки <br>и вейлонеллы)</div>    
+                                            <div class="answer-rama"></div>
+                                        </div>  
+                                        <div class="answer-item">
+                                            <div class="answer-number">3</div> 
+                                            <div class="answer-img img_3"></div>  
+                                            <div class="answer-text">Вирусные возбудители</div>    
+                                            <div class="answer-rama"></div>
+                                        </div> 
+                                        <div class="answer-item">
+                                            <div class="answer-number">4</div>   
+                                            <div class="answer-img img_4"></div>  
+                                            <div class="answer-text">Простейшие</div>    
+                                            <div class="answer-rama"></div>
+                                        </div> 
+                                    </div>     
+                                    <div class="btn-answer answer-btn-question_5">
+                                        <div class="answer-btn-img"></div>
+                                        <div class="answer-btn-hover"></div>
+                                        <span data-btn="answer" id="answer_5">ответить</span>
+                                        <span data-btn="next" class="goToNextQuestion none" id="goToQuestion_6">дaлee</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="help">
+                                <div class="help-mark" data-key="q5-video"></div>
+                                <div class="help-close" data-key="q5-video"></div>
+                            </div>
+                            <div class="video">
+                                <video src="" id="q5-video"></video>
+                                <div class="name">
+                                    <b>Н. Н. Мурашкин</b>
+                                    <p>детский дерматолог,</p>
+                                    <p>д. м. н., профессор</p>
+                                </div>
+                            </div>
+                            <div class="video-bg"></div>
+                        </div>
+                        <div class="question_6 none">
+                            <div class="part-left">
+                                <div class="chapter"></div>
+                                <h2>Атопический<br>дерматит</h2>
+                                <h3>Блиц</h3>
+                                <img class="line-question" src="./images/deck/screen_5/line-1-3-x@2x.png" alt="line">
+                                <h5>Предположите диагноз по картинке:</h5>
+                                <div class="photo-question"><div class="photo_1"></div></div>
+                                <div class="banana"></div>
+                                <div class="step"></div>
+                            </div>
+                            <div class="part-right">
+                                <h4>Варианты ответов:</h4>
+                                <img class="line-answer" src="./images/deck/screen_5/line-1-3-x@2x.png" alt="line">
+                                <div class="answer answer_6">
+                                    <div class="answer-items">
+                                        <div class="answer-item correct">
+                                            <div class="answer-number">1</div>   
+                                            <div class="answer-text">Атопический дерматит</div>    
+                                            <!-- <div class="answer-rama"></div> -->
+                                        </div>   
+                                        <div class="answer-item">
+                                            <div class="answer-number">2</div>   
+                                            <div class="answer-text">Гнойничковое заболевание кожи</div>    
+                                            <!-- <div class="answer-rama"></div> -->
+                                        </div>  
+                                        <div class="answer-item">
+                                            <div class="answer-number">3</div> 
+                                            <div class="answer-text">Атопический дерматит, осложненный вторичной<br>инфекцией</div>    
+                                            <!-- <div class="answer-rama"></div> -->
+                                        </div> 
+                                    </div>     
+                                    <div class="btn-answer answer-btn-question_6">
+                                        <div class="answer-btn-img"></div>
+                                        <div class="answer-btn-hover"></div>
+                                        <span data-btn="answer" id="answer_6">ответить</span>
+                                        <span data-btn="next" class="goToNextQuestion none" id="goToQuestion_7">дaлee</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="help">
+                                <div class="help-mark" data-key="q6-video"></div>
+                                <div class="help-close" data-key="q6-video"></div>
+                            </div>
+                            <div class="video">
+                                <video src="" id="q6-video"></video>
+                                <div class="name">
+                                    <b>Н. Н. Мурашкин</b>
+                                    <p>детский дерматолог,</p>
+                                    <p>д. м. н., профессор</p>
+                                </div>
+                            </div>
+                            <div class="video-bg"></div>
+                        </div>
+                        <div class="question_7 none">
+                            <div class="part-left">
+                                <div class="chapter"></div>
+                                <h2>Детские<br> дерматозы</h2>
+                                <h3>Блиц</h3>
+                                <img class="line-question" src="./images/deck/screen_5/line-1-3-x@2x.png" alt="line">
+                                <h5>Предположите диагноз по картинке:</h5>
+                                <div class="photo-question"><div class="photo_1"></div></div>
+                                <div class="banana"></div>
+                                <div class="step"></div>
+                            </div>
+                            <div class="part-right">
+                                <h4>Варианты ответов:</h4>
+                                <img class="line-answer" src="./images/deck/screen_5/line-1-3-x@2x.png" alt="line">
+                                <div class="answer answer_7">
+                                    <div class="answer-items">
+                                        <div class="answer-item correct">
+                                            <div class="answer-number">1</div>   
+                                            <div class="answer-text">Атопический дерматит</div>    
+                                            <!-- <div class="answer-rama"></div> -->
+                                        </div>   
+                                        <div class="answer-item">
+                                            <div class="answer-number">2</div>   
+                                            <div class="answer-text">Гнойничковое заболевание кожи</div>    
+                                            <!-- <div class="answer-rama"></div> -->
+                                        </div>  
+                                        <div class="answer-item">
+                                            <div class="answer-number">3</div> 
+                                            <div class="answer-text">Атопический дерматит, осложненный вторичной<br>инфекцией</div>    
+                                            <!-- <div class="answer-rama"></div> -->
+                                        </div> 
+                                    </div>     
+                                    <div class="btn-answer answer-btn-question_7">
+                                        <div class="answer-btn-img"></div>
+                                        <div class="answer-btn-hover"></div>
+                                        <span data-btn="answer" id="answer_7">ответить</span>
+                                        <span data-btn="next" class="goToNextQuestion none" id="goToQuestion_8">дaлee</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="help">
+                                <div class="help-mark" data-key="q7-video"></div>
+                                <div class="help-close" data-key="q7-video"></div>
+                            </div>
+                            <div class="video">
+                                <video src="" id="q7-video"></video>
+                                <div class="name">
+                                    <b>Н. Н. Мурашкин</b>
+                                    <p>детский дерматолог,</p>
+                                    <p>д. м. н., профессор</p>
+                                </div>
+                            </div>
+                            <div class="video-bg"></div>
+                        </div>
+                        <div class="question_8 none">
+                            <div class="part-left">
+                                <div class="chapter"></div>
+                                <h2>Детские<br> дерматозы</h2>
+                                <h3>Блиц</h3>
+                                <img class="line-question" src="./images/deck/screen_5/line-1-3-x@2x.png" alt="line">
+                                <h5>Предположите диагноз по картинке:</h5>
+                                <div class="photo-question"><div class="photo_1"></div></div>
+                                <div class="banana"></div>
+                                <div class="step"></div>
+                            </div>
+                            <div class="part-right">
+                                <h4>Варианты ответов:</h4>
+                                <img class="line-answer" src="./images/deck/screen_5/line-1-3-x@2x.png" alt="line">
+                                <div class="answer answer_8">
+                                    <div class="answer-items">
+                                        <div class="answer-item correct">
+                                            <div class="answer-number">1</div>   
+                                            <div class="answer-text">Атопический дерматит</div>    
+                                            <!-- <div class="answer-rama"></div> -->
+                                        </div>   
+                                        <div class="answer-item">
+                                            <div class="answer-number">2</div>   
+                                            <div class="answer-text">Гнойничковое заболевание кожи</div>    
+                                            <!-- <div class="answer-rama"></div> -->
+                                        </div>  
+                                        <div class="answer-item">
+                                            <div class="answer-number">3</div> 
+                                            <div class="answer-text">Атопический дерматит, осложненный вторичной<br>инфекцией</div>    
+                                            <!-- <div class="answer-rama"></div> -->
+                                        </div> 
+                                    </div>     
+                                    <div class="btn-answer answer-btn-question_8">
+                                        <div class="answer-btn-img"></div>
+                                        <div class="answer-btn-hover"></div>
+                                        <span data-btn="answer" id="answer_8">ответить</span>
+                                        <span data-btn="next" class="goToNextQuestion none" id="goToQuestion_9">дaлee</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="help">
+                                <div class="help-mark" data-key="q8-video"></div>
+                                <div class="help-close" data-key="q8-video"></div>
+                            </div>
+                            <div class="video">
+                                <video src="" id="q8-video"></video>
+                                <div class="name">
+                                    <b>Н. Н. Мурашкин</b>
+                                    <p>детский дерматолог,</p>
+                                    <p>д. м. н., профессор</p>
+                                </div>
+                            </div>
+                            <div class="video-bg"></div>
+                        </div>
+                        <div class="question_9 none">
+                            <div class="part-left">
+                                <div class="chapter"></div>
+                                <h2>Детские<br> дерматозы</h2>
+                                <h3>Блиц</h3>
+                                <img class="line-question" src="./images/deck/screen_5/line-1-3-x@2x.png" alt="line">
+                                <h5>Какой препарат избирательно<br>воздействует на основных возбудителей<br> гнойничковых заболеваний кожи?</h5>
+                                <img class="arrow" src="./images/deck/screen_5/arrow-3-3-x@2x.png" alt="arrow">
+                                <div class="banana"></div>
+                                <div class="step"></div>
+                            </div>
+                            <div class="part-right">
+                                <h4>Варианты ответов:</h4>
+                                <img class="line-answer" src="./images/deck/screen_5/line-1-3-x@2x.png" alt="line">
+                                <div class="answer answer_9">
+                                    <div class="answer-items">
+                                        <div class="answer-item correct">
+                                            <div class="answer-number">1</div>   
+                                            <div class="answer-img img_1"></div>
+                                            <div class="answer-text">Банеоцин®</div>    
+                                            <div class="answer-rama"></div>
+                                        </div>   
+                                        <div class="answer-item">
+                                            <div class="answer-number">2</div>   
+                                            <div class="answer-img img_2"></div>
+                                            <div class="answer-text">Фуцидин®</div>    
+                                            <div class="answer-rama"></div>
+                                        </div>  
+                                        <div class="answer-item">
+                                            <div class="answer-number">3</div> 
+                                            <div class="answer-img img_3"></div>  
+                                            <div class="answer-text">Левомеколь</div>    
+                                            <div class="answer-rama"></div>
+                                        </div> 
+                                        <div class="answer-item">
+                                            <div class="answer-number">4</div>   
+                                            <div class="answer-img img_4"></div>  
+                                            <div class="answer-text">Фукорцин</div>    
+                                            <div class="answer-rama"></div>
+                                        </div> 
+                                    </div>     
+                                    <div class="btn-answer answer-btn-question_9">
+                                        <div class="answer-btn-img"></div>
+                                        <div class="answer-btn-hover"></div>
+                                        <span data-btn="answer" id="answer_9">ответить</span>
+                                        <span data-btn="next" class="goToNextQuestion none" id="goToQuestion_10">дaлee</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="help">
+                                <div class="help-mark" data-key="q9-video"></div>
+                                <div class="help-close" data-key="q9-video"></div>
+                            </div>
+                            <div class="video">
+                                <video src="" id="q9-video"></video>
+                                <div class="name">
+                                    <b>Н. Н. Мурашкин</b>
+                                    <p>детский дерматолог,</p>
+                                    <p>д. м. н., профессор</p>
+                                </div>
+                            </div>
+                            <div class="video-bg"></div>
+                        </div>
+                        <div class="question_10 none">
+                            <div class="part-left">
+                                <div class="chapter"></div>
+                                <h2>Детские<br> дерматозы</h2>
+                                <h3>Блиц</h3>
+                                <img class="line-question" src="./images/deck/screen_5/line-1-3-x@2x.png" alt="line">
+                                <h5>Предположите диагноз по картинке:</h5>
+                                <div class="photo-question"><div class="photo_1"></div></div>
+                                <div class="banana"></div>
+                                <div class="step"></div>
+                            </div>
+                            <div class="part-right">
+                                <h4>Варианты ответов:</h4>
+                                <img class="line-answer" src="./images/deck/screen_5/line-1-3-x@2x.png" alt="line">
+                                <div class="answer answer_10">
+                                    <div class="answer-items">
+                                        <div class="answer-item correct">
+                                            <div class="answer-number">1</div>   
+                                            <div class="answer-text">Атопический дерматит</div>    
+                                            <!-- <div class="answer-rama"></div> -->
+                                        </div>   
+                                        <div class="answer-item">
+                                            <div class="answer-number">2</div>   
+                                            <div class="answer-text">Гнойничковое заболевание кожи</div>    
+                                            <!-- <div class="answer-rama"></div> -->
+                                        </div>  
+                                        <div class="answer-item">
+                                            <div class="answer-number">3</div> 
+                                            <div class="answer-text">Атопический дерматит, осложненный вторичной<br>инфекцией</div>    
+                                            <!-- <div class="answer-rama"></div> -->
+                                        </div> 
+                                    </div>     
+                                    <div class="btn-answer answer-btn-question_10">
+                                        <div class="answer-btn-img"></div>
+                                        <div class="answer-btn-hover"></div>
+                                        <span data-btn="answer" id="answer_10">ответить</span>
+                                        <span data-btn="next" class="goToNextQuestion none" id="goToQuestion_11">дaлee</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="help">
+                                <div class="help-mark" data-key="q10-video"></div>
+                                <div class="help-close" data-key="q10-video"></div>
+                            </div>
+                            <div class="video">
+                                <video src="" id="q10-video"></video>
+                                <div class="name">
+                                    <b>Н. Н. Мурашкин</b>
+                                    <p>детский дерматолог,</p>
+                                    <p>д. м. н., профессор</p>
+                                </div>
+                            </div>
+                            <div class="video-bg"></div>
+                        </div>
+                        <div class="question_11 none">
+                            <div class="part-left">
+                                <div class="chapter"></div>
+                                <h2>Детские<br> дерматозы</h2>
+                                <h3>Блиц</h3>
+                                <img class="line-question" src="./images/deck/screen_5/line-1-3-x@2x.png" alt="line">
+                                <h5>Предположите диагноз по картинке:</h5>
+                                <div class="photo-question"><div class="photo_1"></div></div>
+                                <div class="banana"></div>
+                                <div class="step"></div>
+                            </div>
+                            <div class="part-right">
+                                <h4>Варианты ответов:</h4>
+                                <img class="line-answer" src="./images/deck/screen_5/line-1-3-x@2x.png" alt="line">
+                                <div class="answer answer_11">
+                                    <div class="answer-items">
+                                        <div class="answer-item correct">
+                                            <div class="answer-number">1</div>   
+                                            <div class="answer-text">Атопический дерматит</div>    
+                                            <!-- <div class="answer-rama"></div> -->
+                                        </div>   
+                                        <div class="answer-item">
+                                            <div class="answer-number">2</div>   
+                                            <div class="answer-text">Гнойничковое заболевание кожи</div>    
+                                            <!-- <div class="answer-rama"></div> -->
+                                        </div>  
+                                        <div class="answer-item">
+                                            <div class="answer-number">3</div> 
+                                            <div class="answer-text">Атопический дерматит, осложненный вторичной<br>инфекцией</div>    
+                                            <!-- <div class="answer-rama"></div> -->
+                                        </div> 
+                                    </div>     
+                                    <div class="btn-answer answer-btn-question_11">
+                                        <div class="answer-btn-img"></div>
+                                        <div class="answer-btn-hover"></div>
+                                        <span data-btn="answer" id="answer_11">ответить</span>
+                                        <span data-btn="next" class="goToNextQuestion none" id="goToQuestion_12">дaлee</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="help">
+                                <div class="help-mark" data-key="q11-video"></div>
+                                <div class="help-close" data-key="q11-video"></div>
+                            </div>
+                            <div class="video">
+                                <video src="" id="q11-video"></video>
+                                <div class="name">
+                                    <b>Н. Н. Мурашкин</b>
+                                    <p>детский дерматолог,</p>
+                                    <p>д. м. н., профессор</p>
+                                </div>
+                            </div>
+                            <div class="video-bg"></div>
+                        </div>
+                        <div class="question_12 none">
+                            <div class="part-left">
+                                <div class="chapter"></div>
+                                <h2>Детские<br> дерматозы</h2>
+                                <h3>Блиц</h3>
+                                <img class="line-question" src="./images/deck/screen_5/line-1-3-x@2x.png" alt="line">
+                                <h5>Какой из перечисленных препаратов<br>разрешен для лечения вторично<br>инфицированных дерматозов<br>с рождения?</h5>
+                                <img class="arrow" src="./images/deck/screen_5/arrow-3-3-x@2x.png" alt="arrow">
+                                <div class="banana"></div>
+                                <div class="step"></div>
+                            </div>
+                            <div class="part-right">
+                                <h4>Варианты ответов:</h4>
+                                <img class="line-answer" src="./images/deck/screen_5/line-1-3-x@2x.png" alt="line">
+                                <div class="answer answer_12">
+                                    <div class="answer-items">
+                                        <div class="answer-item correct">
+                                            <div class="answer-number">1</div>   
+                                            <div class="answer-text">Пимафукорт®</div>    
+                                            <!-- <div class="answer-rama"></div> -->
+                                        </div>   
+                                        <div class="answer-item">
+                                            <div class="answer-number">2</div>   
+                                            <div class="answer-text">Акридерм®</div>    
+                                            <!-- <div class="answer-rama"></div> -->
+                                        </div>  
+                                        <div class="answer-item">
+                                            <div class="answer-number">3</div>   
+                                            <div class="answer-text">Тридерм®</div>    
+                                            <!-- <div class="answer-rama"></div> -->
+                                        </div> 
+                                        <div class="answer-item">
+                                            <div class="answer-number">4</div>   
+                                            <div class="answer-text">Момат®</div>    
+                                            <!-- <div class="answer-rama"></div> -->
+                                        </div> 
+                                    </div>     
+                                    <div class="btn-answer answer-btn-question_12">
+                                        <div class="answer-btn-img"></div>
+                                        <div class="answer-btn-hover"></div>
+                                        <span data-btn="answer" id="answer_12">ответить</span>
+                                        <span data-btn="next" class="goToNextQuestion none" id="goToEndBlock">дaлee</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="help">
+                                <div class="help-mark" data-key="q12-video"></div>
+                                <div class="help-close" data-key="q12-video"></div>
+                            </div>
+                            <div class="video">
+                                <video src="./images/deck/screen_6/q2.mp4" id="q12-video"></video>
+                                <div class="name">
+                                    <b>Н. Н. Мурашкин</b>
+                                    <p>детский дерматолог,</p>
+                                    <p>д. м. н., профессор</p>
+                                </div>
+                            </div>
+                            <div class="video-bg"></div>
+                        </div>
+                        <div class="none" id="banana"></div>
+                        <div id="plusTime"><p>+ 2 мин</p></div>
+                        </div>    
+                    <div class="clock">
+                        <p data-plus="0" id="timer"><span id="min" data-min="0">00</span>:<span id="sec" data-sec="0">00</span></p>
+                    </div>
+                </div>
+                <div class="blockEndQuestions none">
+                    <div class="time">
+                        <p class="time-text">00:00</p>
+                    </div>
+                    <div class="text">
+                        <p class="yellow">ваше</p>
+                        <p class="black">время</p>
+                        <p id="end-time"></p>
+                        <p class="result">Желаете увидеть свой результат<br>в турнирной таблице? Пожалуйста,<br> авторизуйтесь или пройдите регистрацию,<br> если вы здесь впервые</p>
+                    </div>
+                    <div class="form">
+                        <a class="registration" href="#">Регистрация</a>
+                        <form action="" method="post">
+                            <input class="input" type="text" name="mail" placeholder="почта">
+                            <input class="input" type="password" name="password" placeholder="пароль">
+                            <input class="submit" type="submit" value="Войти">
+                          </form>
+                          <a class="password" href="#">Забыли пароль?</a>
+                    </div>
+                </div>
+                <div class="arm none">
+                    <div class="arm-block">
+                        <div class="arm-block-image">
+                            <div class="hand"></div>
+                            <div class="hand-img"></div>
+                            <div class="close"></div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+    </div>
+    <div id="footer">
+        <div id="footer-content">
+            <div id="footer-company">
+                ООО «Лео Фармасьютикал Продактс»:<br>
+                Россия, 125315, Москва, Лениндрадский пр., д. 72, корп. 2;<br>
+                тел.: +7 (495) 789 1160; info.ru@leo-pharma.com; www.leo-pharma.com<br>
+                MAT-17984-06-2018
+            </div>
+            <div id="footer-company-info">
+                Информация, размещенная на сайте, предназначена только для специалистов<br>
+                с медицинским или фармацевтическим образованием и может быть использована только<br>
+                в профессиональной деятельности.
+            </div>
+            <div id="footer-pn">
+                П N011114/02, П N011114/03.<br>
+                П N012689/01, П N012689/02
+            </div>
+            <div id="footer-right">
+                <div class="footer-right-links">
+                    <a href="#">
+                        Правила участия
+                    </a>
+                    <a href="#">
+                        Политика конфиденциальности
+                    </a>
+                </div>
+                <div class="footer-right-links">
+                    <a href="#">
+                        Инструкция по применению<br> Фуцидин
+                    </a>
+                    <a href="#">
+                        Инструкция по применению<br> Пимафукорт
+                    </a>
+                    <a href="#" class="breffi-link">
+                        <img src="./images/deck/breffi.png" alt="" width="114">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
